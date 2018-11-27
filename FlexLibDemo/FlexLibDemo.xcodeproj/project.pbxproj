@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		010C3E5921ABDBFC004DCD3F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3E5821ABDBFC004DCD3F /* AppDelegate.m */; };
+		010C3E5C21ABDBFC004DCD3F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3E5B21ABDBFC004DCD3F /* ViewController.m */; };
+		010C3E5F21ABDBFC004DCD3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010C3E5D21ABDBFC004DCD3F /* Main.storyboard */; };
+		010C3E6121ABDBFF004DCD3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 010C3E6021ABDBFF004DCD3F /* Assets.xcassets */; };
+		010C3E6421ABDBFF004DCD3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 010C3E6221ABDBFF004DCD3F /* LaunchScreen.storyboard */; };
+		010C3E6721ABDBFF004DCD3F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3E6621ABDBFF004DCD3F /* main.m */; };
+		010C3E7121ABDBFF004DCD3F /* FlexLibDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3E7021ABDBFF004DCD3F /* FlexLibDemoTests.m */; };
+		010C3E7C21ABDBFF004DCD3F /* FlexLibDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 010C3E7B21ABDBFF004DCD3F /* FlexLibDemoUITests.m */; };
+		012675BF21AD2EC90095F7B7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012675BE21AD2EC90095F7B7 /* HomeViewController.m */; };
+		012675C621AD2F160095F7B7 /* HomeViewController.xml in Resources */ = {isa = PBXBuildFile; fileRef = 012675C521AD2F160095F7B7 /* HomeViewController.xml */; };
+		012675C921AD2FDA0095F7B7 /* FlexTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 012675C821AD2FDA0095F7B7 /* FlexTableViewController.m */; };
+		012675CB21AD2FF40095F7B7 /* FlexTableViewController.xml in Resources */ = {isa = PBXBuildFile; fileRef = 012675CA21AD2FF40095F7B7 /* FlexTableViewController.xml */; };
+		012675CE21AD36710095F7B7 /* FlexTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 012675CD21AD36710095F7B7 /* FlexTableViewCell.m */; };
+		012675D021AD36850095F7B7 /* FlexTableViewCell.xml in Resources */ = {isa = PBXBuildFile; fileRef = 012675CF21AD36850095F7B7 /* FlexTableViewCell.xml */; };
+		012675D221AD3BA00095F7B7 /* 80-80.png in Resources */ = {isa = PBXBuildFile; fileRef = 012675D121AD3BA00095F7B7 /* 80-80.png */; };
+		2BFF08072A69E055F06803C4 /* libPods-FlexLibDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 654F1DD2348C701105CA1FAE /* libPods-FlexLibDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		010C3E6D21ABDBFF004DCD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010C3E4C21ABDBFC004DCD3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010C3E5321ABDBFC004DCD3F;
+			remoteInfo = FlexLibDemo;
+		};
+		010C3E7821ABDBFF004DCD3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 010C3E4C21ABDBFC004DCD3F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 010C3E5321ABDBFC004DCD3F;
+			remoteInfo = FlexLibDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010C3E5421ABDBFC004DCD3F /* FlexLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlexLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		010C3E5721ABDBFC004DCD3F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		010C3E5821ABDBFC004DCD3F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		010C3E5A21ABDBFC004DCD3F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		010C3E5B21ABDBFC004DCD3F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		010C3E5E21ABDBFC004DCD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		010C3E6021ABDBFF004DCD3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		010C3E6321ABDBFF004DCD3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		010C3E6521ABDBFF004DCD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010C3E6621ABDBFF004DCD3F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		010C3E6C21ABDBFF004DCD3F /* FlexLibDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexLibDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		010C3E7021ABDBFF004DCD3F /* FlexLibDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexLibDemoTests.m; sourceTree = "<group>"; };
+		010C3E7221ABDBFF004DCD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		010C3E7721ABDBFF004DCD3F /* FlexLibDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlexLibDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		010C3E7B21ABDBFF004DCD3F /* FlexLibDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexLibDemoUITests.m; sourceTree = "<group>"; };
+		010C3E7D21ABDBFF004DCD3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		012675BD21AD2EC90095F7B7 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		012675BE21AD2EC90095F7B7 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		012675C521AD2F160095F7B7 /* HomeViewController.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HomeViewController.xml; sourceTree = "<group>"; };
+		012675C721AD2FDA0095F7B7 /* FlexTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexTableViewController.h; sourceTree = "<group>"; };
+		012675C821AD2FDA0095F7B7 /* FlexTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexTableViewController.m; sourceTree = "<group>"; };
+		012675CA21AD2FF40095F7B7 /* FlexTableViewController.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FlexTableViewController.xml; sourceTree = "<group>"; };
+		012675CC21AD36710095F7B7 /* FlexTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlexTableViewCell.h; sourceTree = "<group>"; };
+		012675CD21AD36710095F7B7 /* FlexTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlexTableViewCell.m; sourceTree = "<group>"; };
+		012675CF21AD36850095F7B7 /* FlexTableViewCell.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FlexTableViewCell.xml; sourceTree = "<group>"; };
+		012675D121AD3BA00095F7B7 /* 80-80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "80-80.png"; sourceTree = "<group>"; };
+		0148C9BC21ABDF61006A2CAB /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0148C9BD21ABE35A006A2CAB /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		654F1DD2348C701105CA1FAE /* libPods-FlexLibDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FlexLibDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98CEB0ABD4D2E02B233FD040 /* Pods-FlexLibDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLibDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FlexLibDemo/Pods-FlexLibDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A206EA6EF51E56B78B943ECB /* Pods-FlexLibDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexLibDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FlexLibDemo/Pods-FlexLibDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		010C3E5121ABDBFC004DCD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BFF08072A69E055F06803C4 /* libPods-FlexLibDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3E6921ABDBFF004DCD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3E7421ABDBFF004DCD3F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010C3E4B21ABDBFB004DCD3F = {
+			isa = PBXGroup;
+			children = (
+				010C3E5621ABDBFC004DCD3F /* FlexLibDemo */,
+				010C3E6F21ABDBFF004DCD3F /* FlexLibDemoTests */,
+				010C3E7A21ABDBFF004DCD3F /* FlexLibDemoUITests */,
+				010C3E5521ABDBFC004DCD3F /* Products */,
+				0FCF6399D4ACE54246595E45 /* Pods */,
+				9D1C973188FB904FDCB00FA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		010C3E5521ABDBFC004DCD3F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				010C3E5421ABDBFC004DCD3F /* FlexLibDemo.app */,
+				010C3E6C21ABDBFF004DCD3F /* FlexLibDemoTests.xctest */,
+				010C3E7721ABDBFF004DCD3F /* FlexLibDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		010C3E5621ABDBFC004DCD3F /* FlexLibDemo */ = {
+			isa = PBXGroup;
+			children = (
+				012675D121AD3BA00095F7B7 /* 80-80.png */,
+				0126759B21AD2B240095F7B7 /* ViewController */,
+				0126759A21AD2B240095F7B7 /* XML */,
+				0148C9BD21ABE35A006A2CAB /* Common.h */,
+				010C3E5721ABDBFC004DCD3F /* AppDelegate.h */,
+				010C3E5821ABDBFC004DCD3F /* AppDelegate.m */,
+				010C3E5D21ABDBFC004DCD3F /* Main.storyboard */,
+				010C3E6021ABDBFF004DCD3F /* Assets.xcassets */,
+				010C3E6221ABDBFF004DCD3F /* LaunchScreen.storyboard */,
+				010C3E6521ABDBFF004DCD3F /* Info.plist */,
+				010C3E6621ABDBFF004DCD3F /* main.m */,
+				0148C9BC21ABDF61006A2CAB /* PrefixHeader.pch */,
+			);
+			path = FlexLibDemo;
+			sourceTree = "<group>";
+		};
+		010C3E6F21ABDBFF004DCD3F /* FlexLibDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				010C3E7021ABDBFF004DCD3F /* FlexLibDemoTests.m */,
+				010C3E7221ABDBFF004DCD3F /* Info.plist */,
+			);
+			path = FlexLibDemoTests;
+			sourceTree = "<group>";
+		};
+		010C3E7A21ABDBFF004DCD3F /* FlexLibDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				010C3E7B21ABDBFF004DCD3F /* FlexLibDemoUITests.m */,
+				010C3E7D21ABDBFF004DCD3F /* Info.plist */,
+			);
+			path = FlexLibDemoUITests;
+			sourceTree = "<group>";
+		};
+		0126759A21AD2B240095F7B7 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				012675C521AD2F160095F7B7 /* HomeViewController.xml */,
+				012675CA21AD2FF40095F7B7 /* FlexTableViewController.xml */,
+				012675CF21AD36850095F7B7 /* FlexTableViewCell.xml */,
+			);
+			path = XML;
+			sourceTree = "<group>";
+		};
+		0126759B21AD2B240095F7B7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				010C3E5A21ABDBFC004DCD3F /* ViewController.h */,
+				010C3E5B21ABDBFC004DCD3F /* ViewController.m */,
+				012675BD21AD2EC90095F7B7 /* HomeViewController.h */,
+				012675BE21AD2EC90095F7B7 /* HomeViewController.m */,
+				012675C721AD2FDA0095F7B7 /* FlexTableViewController.h */,
+				012675C821AD2FDA0095F7B7 /* FlexTableViewController.m */,
+				012675CC21AD36710095F7B7 /* FlexTableViewCell.h */,
+				012675CD21AD36710095F7B7 /* FlexTableViewCell.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		0FCF6399D4ACE54246595E45 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98CEB0ABD4D2E02B233FD040 /* Pods-FlexLibDemo.debug.xcconfig */,
+				A206EA6EF51E56B78B943ECB /* Pods-FlexLibDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9D1C973188FB904FDCB00FA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				654F1DD2348C701105CA1FAE /* libPods-FlexLibDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		010C3E5321ABDBFC004DCD3F /* FlexLibDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010C3E8021ABDBFF004DCD3F /* Build configuration list for PBXNativeTarget "FlexLibDemo" */;
+			buildPhases = (
+				08449D2BAA9D156A602DB472 /* [CP] Check Pods Manifest.lock */,
+				010C3E5021ABDBFC004DCD3F /* Sources */,
+				010C3E5121ABDBFC004DCD3F /* Frameworks */,
+				010C3E5221ABDBFC004DCD3F /* Resources */,
+				4D9C82155387D5269DDB4B8F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlexLibDemo;
+			productName = FlexLibDemo;
+			productReference = 010C3E5421ABDBFC004DCD3F /* FlexLibDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		010C3E6B21ABDBFF004DCD3F /* FlexLibDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010C3E8321ABDBFF004DCD3F /* Build configuration list for PBXNativeTarget "FlexLibDemoTests" */;
+			buildPhases = (
+				010C3E6821ABDBFF004DCD3F /* Sources */,
+				010C3E6921ABDBFF004DCD3F /* Frameworks */,
+				010C3E6A21ABDBFF004DCD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010C3E6E21ABDBFF004DCD3F /* PBXTargetDependency */,
+			);
+			name = FlexLibDemoTests;
+			productName = FlexLibDemoTests;
+			productReference = 010C3E6C21ABDBFF004DCD3F /* FlexLibDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		010C3E7621ABDBFF004DCD3F /* FlexLibDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 010C3E8621ABDBFF004DCD3F /* Build configuration list for PBXNativeTarget "FlexLibDemoUITests" */;
+			buildPhases = (
+				010C3E7321ABDBFF004DCD3F /* Sources */,
+				010C3E7421ABDBFF004DCD3F /* Frameworks */,
+				010C3E7521ABDBFF004DCD3F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				010C3E7921ABDBFF004DCD3F /* PBXTargetDependency */,
+			);
+			name = FlexLibDemoUITests;
+			productName = FlexLibDemoUITests;
+			productReference = 010C3E7721ABDBFF004DCD3F /* FlexLibDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		010C3E4C21ABDBFC004DCD3F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "mkrq-yh";
+				TargetAttributes = {
+					010C3E5321ABDBFC004DCD3F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					010C3E6B21ABDBFF004DCD3F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 010C3E5321ABDBFC004DCD3F;
+					};
+					010C3E7621ABDBFF004DCD3F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 010C3E5321ABDBFC004DCD3F;
+					};
+				};
+			};
+			buildConfigurationList = 010C3E4F21ABDBFC004DCD3F /* Build configuration list for PBXProject "FlexLibDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 010C3E4B21ABDBFB004DCD3F;
+			productRefGroup = 010C3E5521ABDBFC004DCD3F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				010C3E5321ABDBFC004DCD3F /* FlexLibDemo */,
+				010C3E6B21ABDBFF004DCD3F /* FlexLibDemoTests */,
+				010C3E7621ABDBFF004DCD3F /* FlexLibDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		010C3E5221ABDBFC004DCD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010C3E6421ABDBFF004DCD3F /* LaunchScreen.storyboard in Resources */,
+				012675C621AD2F160095F7B7 /* HomeViewController.xml in Resources */,
+				012675D021AD36850095F7B7 /* FlexTableViewCell.xml in Resources */,
+				010C3E6121ABDBFF004DCD3F /* Assets.xcassets in Resources */,
+				012675CB21AD2FF40095F7B7 /* FlexTableViewController.xml in Resources */,
+				012675D221AD3BA00095F7B7 /* 80-80.png in Resources */,
+				010C3E5F21ABDBFC004DCD3F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3E6A21ABDBFF004DCD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3E7521ABDBFF004DCD3F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08449D2BAA9D156A602DB472 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FlexLibDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D9C82155387D5269DDB4B8F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FlexLibDemo/Pods-FlexLibDemo-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FlexLib/FlexLib.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FlexLib.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FlexLibDemo/Pods-FlexLibDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		010C3E5021ABDBFC004DCD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				012675CE21AD36710095F7B7 /* FlexTableViewCell.m in Sources */,
+				010C3E5C21ABDBFC004DCD3F /* ViewController.m in Sources */,
+				010C3E6721ABDBFF004DCD3F /* main.m in Sources */,
+				010C3E5921ABDBFC004DCD3F /* AppDelegate.m in Sources */,
+				012675C921AD2FDA0095F7B7 /* FlexTableViewController.m in Sources */,
+				012675BF21AD2EC90095F7B7 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3E6821ABDBFF004DCD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010C3E7121ABDBFF004DCD3F /* FlexLibDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		010C3E7321ABDBFF004DCD3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				010C3E7C21ABDBFF004DCD3F /* FlexLibDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		010C3E6E21ABDBFF004DCD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010C3E5321ABDBFC004DCD3F /* FlexLibDemo */;
+			targetProxy = 010C3E6D21ABDBFF004DCD3F /* PBXContainerItemProxy */;
+		};
+		010C3E7921ABDBFF004DCD3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 010C3E5321ABDBFC004DCD3F /* FlexLibDemo */;
+			targetProxy = 010C3E7821ABDBFF004DCD3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		010C3E5D21ABDBFC004DCD3F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010C3E5E21ABDBFC004DCD3F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		010C3E6221ABDBFF004DCD3F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				010C3E6321ABDBFF004DCD3F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		010C3E7E21ABDBFF004DCD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		010C3E7F21ABDBFF004DCD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		010C3E8121ABDBFF004DCD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98CEB0ABD4D2E02B233FD040 /* Pods-FlexLibDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAPJN9GUP9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mkrq-yh/Desktop/iOS-Demo/FlexLibDemo/FlexLibDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = FlexLibDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.FlexLibDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		010C3E8221ABDBFF004DCD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A206EA6EF51E56B78B943ECB /* Pods-FlexLibDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAPJN9GUP9;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/mkrq-yh/Desktop/iOS-Demo/FlexLibDemo/FlexLibDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = FlexLibDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.FlexLibDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		010C3E8421ABDBFF004DCD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAPJN9GUP9;
+				INFOPLIST_FILE = FlexLibDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.FlexLibDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexLibDemo.app/FlexLibDemo";
+			};
+			name = Debug;
+		};
+		010C3E8521ABDBFF004DCD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAPJN9GUP9;
+				INFOPLIST_FILE = FlexLibDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.FlexLibDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlexLibDemo.app/FlexLibDemo";
+			};
+			name = Release;
+		};
+		010C3E8721ABDBFF004DCD3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAPJN9GUP9;
+				INFOPLIST_FILE = FlexLibDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.FlexLibDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlexLibDemo;
+			};
+			name = Debug;
+		};
+		010C3E8821ABDBFF004DCD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RAPJN9GUP9;
+				INFOPLIST_FILE = FlexLibDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.FlexLibDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlexLibDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		010C3E4F21ABDBFC004DCD3F /* Build configuration list for PBXProject "FlexLibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010C3E7E21ABDBFF004DCD3F /* Debug */,
+				010C3E7F21ABDBFF004DCD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010C3E8021ABDBFF004DCD3F /* Build configuration list for PBXNativeTarget "FlexLibDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010C3E8121ABDBFF004DCD3F /* Debug */,
+				010C3E8221ABDBFF004DCD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010C3E8321ABDBFF004DCD3F /* Build configuration list for PBXNativeTarget "FlexLibDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010C3E8421ABDBFF004DCD3F /* Debug */,
+				010C3E8521ABDBFF004DCD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		010C3E8621ABDBFF004DCD3F /* Build configuration list for PBXNativeTarget "FlexLibDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				010C3E8721ABDBFF004DCD3F /* Debug */,
+				010C3E8821ABDBFF004DCD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 010C3E4C21ABDBFC004DCD3F /* Project object */;
+}

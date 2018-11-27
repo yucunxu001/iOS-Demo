@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UIView layout="flex:1" attr="bgColor:white">
+    <UILabel name="name" layout="margin:10" attr="fontSize:16,color:blue,lineBreakMode:truncatingTail,linesNum:1,text:name"/>
+    <UILabel name="title" layout="margin:10" attr="fontSize:14,color:red,lineBreakMode:truncatingTail,linesNum:1,text:title"/>
+    <UILabel name="content" layout="margin:10" attr="fontSize:18,color:green,lineBreakMode:truncatingTail,linesNum:0,text:content"/>
+    <UIImageView name="imgView" layout="width:80,height:80" attr="source:imgView"/>
+</UIView>
