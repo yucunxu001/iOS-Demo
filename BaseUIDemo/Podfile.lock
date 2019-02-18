@@ -1,0 +1,28 @@
+PODS:
+  - Colours (5.13.0):
+    - Colours/ObjC (= 5.13.0)
+  - Colours/ObjC (5.13.0)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+  - UIImage-Helpers (0.0.3)
+
+DEPENDENCIES:
+  - Colours
+  - SDWebImage (~> 4.0)
+  - UIImage-Helpers
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Colours
+    - SDWebImage
+    - UIImage-Helpers
+
+SPEC CHECKSUMS:
+  Colours: f24220c38f13deac88612667e9b4a7fb96b871d4
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+  UIImage-Helpers: 06b04a42bdd222844035602e87e936765c80f620
+
+PODFILE CHECKSUM: 20e486bdac78ae698deaf3d71bea0a6a90b30ef7
+
+COCOAPODS: 1.5.3

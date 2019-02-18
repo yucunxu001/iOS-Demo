@@ -1,0 +1,25 @@
+//
+//  Base.pch
+//  BaseUIDemo
+//
+//  Created by mkrq-yh on 2019/1/10.
+//  Copyright © 2019 mkrq-yh. All rights reserved.
+//
+
+#ifndef Base_pch
+#define Base_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//公共文件
+#import "Utils/Utils.h"
+#import "Common/Common.h"
+#import "Common/Color.h"
+
+//第三方库
+#import "UIImageView+WebCache.h" // SDWebImage基本使用
+#import "Colours.h" // 颜色
+#import "UIImage-Helpers.h" // 模糊图片 屏幕截图 根据颜色生成图片
+
+#endif /* Base_pch */

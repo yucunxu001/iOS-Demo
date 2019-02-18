@@ -1,0 +1,8 @@
+platform :ios, '8.0'
+target ‘BaseUIDemo’ do
+
+pod 'Colours'
+pod 'SDWebImage', '~> 4.0'
+pod 'UIImage-Helpers'
+
+end
