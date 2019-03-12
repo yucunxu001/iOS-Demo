@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DashLineView.h"
 
 @interface ViewController ()
 
@@ -23,18 +24,14 @@
     scroll.contentSize = CGSizeMake(self.view.frame.size.width, self.view.frame.size.height*2);
     [self.view addSubview:scroll];
     
-    /*
-     一般实线边框，四面都有
-     */
+    //一般实线边框，四面都有
     UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     view.backgroundColor = [UIColor yellowColor];
     view.layer.borderWidth = 2;//边粗细
     view.layer.borderColor = [[UIColor redColor] CGColor];//边框颜色
     [scroll addSubview:view];
     
-    /*
-     一般虚线边框，四面都有
-    */
+    //一般虚线边框，四面都有
     UIView *view2 = [[UIView alloc] initWithFrame:CGRectMake(100, view.frame.origin.y+view.frame.size.height+50, 100, 100)];
     view2.backgroundColor = [UIColor yellowColor];
     view2.layer.cornerRadius = 10;
@@ -52,9 +49,7 @@
     dottedLineBorder.path = path.CGPath;//设置路径
     [view2.layer addSublayer:dottedLineBorder];
     
-    /*
-     一般虚线边框，四面都有
-     */
+    //一般虚线边框，四面都有
     UIView *view3 = [[UIView alloc] initWithFrame:CGRectMake(100, view2.frame.origin.y+view2.frame.size.height+50, 100, 100)];
     view3.backgroundColor = [UIColor yellowColor];
 //    view3.layer.cornerRadius = 10;
@@ -64,7 +59,7 @@
     [self setBorderWithView:view3 top:NO left:YES bottom:NO right:NO borderColor:[UIColor greenColor] borderWidth:2];
     [self setBorderWithView:view3 top:NO left:NO bottom:YES right:NO borderColor:[UIColor purpleColor] borderWidth:2];
     [self setBorderWithView:view3 top:NO left:NO bottom:NO right:YES borderColor:[UIColor orangeColor] borderWidth:2];
-
+    
 }
 
 - (void)setBorderWithView:(UIView *)view top:(BOOL)top left:(BOOL)left bottom:(BOOL)bottom right:(BOOL)right borderColor:(UIColor *)color borderWidth:(CGFloat)width
