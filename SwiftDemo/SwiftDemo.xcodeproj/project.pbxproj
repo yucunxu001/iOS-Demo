@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		01087D1C223B539100AFDD2B /* BaseDataTypeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01087D1B223B539100AFDD2B /* BaseDataTypeController.swift */; };
+		01A39E00224329BF009FFD13 /* FactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A39DFF224329BF009FFD13 /* FactoryViewController.swift */; };
+		01A39E0222432A39009FFD13 /* FactoryAnimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A39E0122432A39009FFD13 /* FactoryAnimal.swift */; };
+		01A39E0422432A44009FFD13 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A39E0322432A44009FFD13 /* Animal.swift */; };
+		01A39E0622432A68009FFD13 /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A39E0522432A68009FFD13 /* Dog.swift */; };
+		01A39E0822432A78009FFD13 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A39E0722432A78009FFD13 /* Cat.swift */; };
+		01BBE33B22420306004664E1 /* DesignModeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE33A22420306004664E1 /* DesignModeViewController.swift */; };
+		01BBE33D22420383004664E1 /* KVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE33C22420383004664E1 /* KVOViewController.swift */; };
+		01BBE33F224204C5004664E1 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE33E224204C5004664E1 /* Person.swift */; };
+		01BBE39B22422312004664E1 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE39A22422312004664E1 /* NotificationViewController.swift */; };
+		01BBE3A322422D93004664E1 /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE3A222422D93004664E1 /* DelegateViewController.swift */; };
+		01BBE3A522422E2C004664E1 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE3A422422E2C004664E1 /* CustomView.swift */; };
 		01ED834622378979009E5B68 /* common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED834522378979009E5B68 /* common.swift */; };
 		01ED834922379265009E5B68 /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED834822379265009E5B68 /* ButtonViewController.swift */; };
 		01ED834B2237A289009E5B68 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01ED834A2237A289009E5B68 /* LabelViewController.swift */; };
@@ -45,6 +56,17 @@
 
 /* Begin PBXFileReference section */
 		01087D1B223B539100AFDD2B /* BaseDataTypeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseDataTypeController.swift; sourceTree = "<group>"; };
+		01A39DFF224329BF009FFD13 /* FactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryViewController.swift; sourceTree = "<group>"; };
+		01A39E0122432A39009FFD13 /* FactoryAnimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryAnimal.swift; sourceTree = "<group>"; };
+		01A39E0322432A44009FFD13 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		01A39E0522432A68009FFD13 /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		01A39E0722432A78009FFD13 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		01BBE33A22420306004664E1 /* DesignModeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignModeViewController.swift; sourceTree = "<group>"; };
+		01BBE33C22420383004664E1 /* KVOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVOViewController.swift; sourceTree = "<group>"; };
+		01BBE33E224204C5004664E1 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		01BBE39A22422312004664E1 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		01BBE3A222422D93004664E1 /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		01BBE3A422422E2C004664E1 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		01ED834522378979009E5B68 /* common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = common.swift; sourceTree = "<group>"; };
 		01ED834822379265009E5B68 /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 		01ED834A2237A289009E5B68 /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +116,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01BBE339224202E3004664E1 /* 设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				01BBE33A22420306004664E1 /* DesignModeViewController.swift */,
+				01BBE33C22420383004664E1 /* KVOViewController.swift */,
+				01BBE33E224204C5004664E1 /* Person.swift */,
+				01BBE39A22422312004664E1 /* NotificationViewController.swift */,
+				01BBE3A222422D93004664E1 /* DelegateViewController.swift */,
+				01BBE3A422422E2C004664E1 /* CustomView.swift */,
+				01A39DFF224329BF009FFD13 /* FactoryViewController.swift */,
+				01A39E0122432A39009FFD13 /* FactoryAnimal.swift */,
+				01A39E0322432A44009FFD13 /* Animal.swift */,
+				01A39E0522432A68009FFD13 /* Dog.swift */,
+				01A39E0722432A78009FFD13 /* Cat.swift */,
+			);
+			path = "设计模式";
+			sourceTree = "<group>";
+		};
 		01ED834722379249009E5B68 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +176,7 @@
 				01EDA8EF21FE9943001C2067 /* AppDelegate.swift */,
 				01EDA8F121FE9943001C2067 /* ViewController.swift */,
 				01087D1B223B539100AFDD2B /* BaseDataTypeController.swift */,
+				01BBE339224202E3004664E1 /* 设计模式 */,
 				01ED834722379249009E5B68 /* UI */,
 				01EDA8F321FE9943001C2067 /* Main.storyboard */,
 				01EDA8F621FE9944001C2067 /* Assets.xcassets */,
@@ -296,15 +337,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				01ED834922379265009E5B68 /* ButtonViewController.swift in Sources */,
+				01BBE3A322422D93004664E1 /* DelegateViewController.swift in Sources */,
 				01ED834B2237A289009E5B68 /* LabelViewController.swift in Sources */,
 				01EDA8F221FE9943001C2067 /* ViewController.swift in Sources */,
+				01BBE33B22420306004664E1 /* DesignModeViewController.swift in Sources */,
+				01BBE33F224204C5004664E1 /* Person.swift in Sources */,
+				01BBE39B22422312004664E1 /* NotificationViewController.swift in Sources */,
 				01ED83572237D640009E5B68 /* AlertViewController.swift in Sources */,
+				01A39E0622432A68009FFD13 /* Dog.swift in Sources */,
 				01ED83532237AB3F009E5B68 /* ScrollViewController.swift in Sources */,
+				01A39E0422432A44009FFD13 /* Animal.swift in Sources */,
+				01BBE3A522422E2C004664E1 /* CustomView.swift in Sources */,
 				01ED834F2237A82F009E5B68 /* ImageViewController.swift in Sources */,
+				01A39E0222432A39009FFD13 /* FactoryAnimal.swift in Sources */,
+				01A39E0822432A78009FFD13 /* Cat.swift in Sources */,
+				01A39E00224329BF009FFD13 /* FactoryViewController.swift in Sources */,
 				01EDA8F021FE9943001C2067 /* AppDelegate.swift in Sources */,
 				01ED834622378979009E5B68 /* common.swift in Sources */,
 				01ED834D2237A49E009E5B68 /* BaseViewController.swift in Sources */,
 				01ED83552237CB56009E5B68 /* TextFieldViewController.swift in Sources */,
+				01BBE33D22420383004664E1 /* KVOViewController.swift in Sources */,
 				01087D1C223B539100AFDD2B /* BaseDataTypeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

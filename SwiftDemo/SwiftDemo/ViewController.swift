@@ -98,6 +98,15 @@ class ViewController: UIViewController {
         alertBtn.titleLabel?.font = UIFont.systemFont(ofSize: 16)
         alertBtn.addTarget(self, action: #selector(alertBtnClick(sender:)), for: .touchUpInside)
         scrollView.addSubview(alertBtn)
+        
+        let modeBtn = UIButton(type: .custom)
+        modeBtn.frame = CGRect(x: 20, y: alertBtn.frame.origin.y+alertBtn.frame.size.height+20, width: kScreenWidth-40, height: 40)
+        modeBtn.backgroundColor = UIColor.green
+        modeBtn.setTitle("设计模式", for: .normal)
+        modeBtn.setTitleColor(UIColor.red, for: .normal)
+        modeBtn.titleLabel?.font = UIFont.systemFont(ofSize: 16)
+        modeBtn.addTarget(self, action: #selector(modeBtnClick(sender:)), for: .touchUpInside)
+        scrollView.addSubview(modeBtn)
 
     }
     
@@ -151,6 +160,11 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(buttonVC, animated: true)
     }
     
+    @objc func modeBtnClick(sender:UIButton) {
+        print("设计模式")
+        let buttonVC = DesignModeViewController()
+        self.navigationController?.pushViewController(buttonVC, animated: true)
+    }
 
     
 }

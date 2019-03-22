@@ -8,6 +8,19 @@
 
 import UIKit
 
+enum SomeType {
+    case SomeTypeOne
+    case SomeTypeTwo
+    case SomeTypeThree
+}
+
+struct MyStructTest {
+    var originX = 100
+    var originY = 100
+    var width = 200
+    var height = 300
+}
+
 class BaseDataTypeController: UIViewController {
 
     override func viewDidLoad() {
@@ -47,7 +60,29 @@ class BaseDataTypeController: UIViewController {
             print(i,arr[i])
         }
         
-        
+        print("枚举SomeType==\(SomeType.SomeTypeOne)")
+        let myStruct = MyStructTest()
+        let myStruct2 = MyStructTest(originX: 50, originY: 60, width: 70, height: 80)
+        var myStruct3 = myStruct2
+        myStruct3.width = 500
+        print("myStruct.width==\(myStruct.width)")
+        print("myStruct2.width==\(myStruct2.width)")
+        print("myStruct3.width==\(myStruct3.width)")
+
+        checkUp(person: ["id":"123456789","zkz":"khjsalgkuhiglsad "])
+
+    }
+    
+    func checkUp(person:[String:String?]) {
+        guard let id = person["id"] else {
+            print("没有身份证")
+            return
+        }
+        guard let zkz = person["zkz"] else {
+            print("没有准考证")
+            return
+        }
+        print("身份证==\(id!),准考证\(zkz!)")
     }
 
     /*
