@@ -27,6 +27,9 @@
 		01BBE39922422149004664E1 /* NotifyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE39822422149004664E1 /* NotifyConst.m */; };
 		01BBE39E2242294A004664E1 /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE39D2242294A004664E1 /* DelegateViewController.m */; };
 		01BBE3A1224229C7004664E1 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BBE3A0224229C7004664E1 /* CustomView.m */; };
+		01E63CB72244E66E0063C3CE /* CountDownGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E63CB62244E66E0063C3CE /* CountDownGCDViewController.m */; };
+		01E63CBE2244E6F40063C3CE /* CountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E63CBD2244E6F40063C3CE /* CountDownViewController.m */; };
+		01E63CC12244E7140063C3CE /* CountDownNSTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E63CC02244E7140063C3CE /* CountDownNSTimerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,12 @@
 		01BBE39D2242294A004664E1 /* DelegateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DelegateViewController.m; sourceTree = "<group>"; };
 		01BBE39F224229C6004664E1 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
 		01BBE3A0224229C7004664E1 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		01E63CB52244E66E0063C3CE /* CountDownGCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownGCDViewController.h; sourceTree = "<group>"; };
+		01E63CB62244E66E0063C3CE /* CountDownGCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownGCDViewController.m; sourceTree = "<group>"; };
+		01E63CBC2244E6F40063C3CE /* CountDownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownViewController.h; sourceTree = "<group>"; };
+		01E63CBD2244E6F40063C3CE /* CountDownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownViewController.m; sourceTree = "<group>"; };
+		01E63CBF2244E7140063C3CE /* CountDownNSTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountDownNSTimerViewController.h; sourceTree = "<group>"; };
+		01E63CC02244E7140063C3CE /* CountDownNSTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountDownNSTimerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +150,7 @@
 				017C5DEE2240F35800937553 /* AppDelegate.m */,
 				017C5DF02240F35800937553 /* ViewController.h */,
 				017C5DF12240F35800937553 /* ViewController.m */,
+				01E63CBB2244E6CC0063C3CE /* 倒计时 */,
 				017C5E22224107C800937553 /* 设计模式 */,
 				017C5DF32240F35800937553 /* Main.storyboard */,
 				017C5DF62240F35A00937553 /* Assets.xcassets */,
@@ -198,6 +208,19 @@
 				01A39DF72243221E009FFD13 /* Cat.m */,
 			);
 			path = "设计模式";
+			sourceTree = "<group>";
+		};
+		01E63CBB2244E6CC0063C3CE /* 倒计时 */ = {
+			isa = PBXGroup;
+			children = (
+				01E63CBC2244E6F40063C3CE /* CountDownViewController.h */,
+				01E63CBD2244E6F40063C3CE /* CountDownViewController.m */,
+				01E63CB52244E66E0063C3CE /* CountDownGCDViewController.h */,
+				01E63CB62244E66E0063C3CE /* CountDownGCDViewController.m */,
+				01E63CBF2244E7140063C3CE /* CountDownNSTimerViewController.h */,
+				01E63CC02244E7140063C3CE /* CountDownNSTimerViewController.m */,
+			);
+			path = "倒计时";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,14 +355,17 @@
 			files = (
 				01BBE39922422149004664E1 /* NotifyConst.m in Sources */,
 				01A39DF52243220C009FFD13 /* Dog.m in Sources */,
+				01E63CBE2244E6F40063C3CE /* CountDownViewController.m in Sources */,
 				01A39DF82243221E009FFD13 /* Cat.m in Sources */,
 				01BBE39622421AC7004664E1 /* NotificationViewController.m in Sources */,
 				01A39DFE224326D2009FFD13 /* AnimalFactory.m in Sources */,
+				01E63CB72244E66E0063C3CE /* CountDownGCDViewController.m in Sources */,
 				017C5DF22240F35800937553 /* ViewController.m in Sources */,
 				017C5DFD2240F35A00937553 /* main.m in Sources */,
 				01BBE3352241DF48004664E1 /* Person.m in Sources */,
 				01BBE3A1224229C7004664E1 /* CustomView.m in Sources */,
 				017C5DEF2240F35800937553 /* AppDelegate.m in Sources */,
+				01E63CC12244E7140063C3CE /* CountDownNSTimerViewController.m in Sources */,
 				017C5E21224107B800937553 /* DesignModeViewController.m in Sources */,
 				01A39DE92243213F009FFD13 /* FactoryViewController.m in Sources */,
 				01A39DEC224321D5009FFD13 /* Animal.m in Sources */,
@@ -515,6 +541,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DC8FT77226;
 				INFOPLIST_FILE = OCDemo/Info.plist;
@@ -532,6 +559,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DC8FT77226;
 				INFOPLIST_FILE = OCDemo/Info.plist;
