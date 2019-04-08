@@ -1,0 +1,28 @@
+PODS:
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - SAMKeychain (1.5.3)
+
+DEPENDENCIES:
+  - FMDB
+  - Realm
+  - SAMKeychain
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FMDB
+    - Realm
+    - SAMKeychain
+
+SPEC CHECKSUMS:
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  SAMKeychain: 483e1c9f32984d50ca961e26818a534283b4cd5c
+
+PODFILE CHECKSUM: d721d14e9a60dff7eac0fd834550ef9e5c969595
+
+COCOAPODS: 1.5.3

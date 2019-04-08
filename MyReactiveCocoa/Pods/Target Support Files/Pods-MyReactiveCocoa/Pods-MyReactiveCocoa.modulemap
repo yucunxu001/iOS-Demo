@@ -1,0 +1,6 @@
+module Pods_MyReactiveCocoa {
+  umbrella header "Pods-MyReactiveCocoa-umbrella.h"
+
+  export *
+  module * { export * }
+}
