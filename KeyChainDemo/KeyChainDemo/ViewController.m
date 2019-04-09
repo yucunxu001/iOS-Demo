@@ -19,6 +19,8 @@
 #import "SQLite/SQLiteDBManager.h"
 #import "SQLite/Person.h"
 #import "FMDBManager.h"
+#import <Realm/Realm.h>
+#import "RealmBaseModel.h"
 
 @interface ViewController ()
 
@@ -247,7 +249,48 @@ NSString * const KEY_PASSWORD = @"com.company.app.password";
 
 #pragma mark - 使用Realm
 - (void)userRealm {
+    //插入数据
+    RealmBaseModel *model = [RealmBaseModel new];
+    model.userId = 2;
+    model.name = @"大旭哥";
+    model.age = 27;
+    model.address = @"上海";
+    [[RLMRealm defaultRealm] transactionWithBlock:^{
+        [[RLMRealm defaultRealm] addOrUpdateObject:model];
+    }];
     
+
+//    [[RLMRealm defaultRealm] transactionWithBlock:^{
+//        //1.查询所有数据
+//        RLMResults *resultsArr = [RealmBaseModel allObjects];
+//        //2.查询一条数据
+////        RLMResults *resultsArr = [RealmPersonModel objectsWhere:@"userId = 1"];
+//        NSLog(@"count==%ld",resultsArr.count);
+//        for (NSInteger i = 0; i < resultsArr.count; i++) {
+//            NSLog(@"*****************");
+//            RealmBaseModel *person = resultsArr[i];
+//            NSLog(@"name==%@",person.name);
+//            NSLog(@"name==%ld",person.age);
+//            NSLog(@"address==%@",person.address);
+//        }
+//    }];
+//
+//    //删除
+//    [[RLMRealm defaultRealm] transactionWithBlock:^{
+//        //删除一条数据
+//        RLMResults *results = [RealmBaseModel objectsWhere:@"userId = 1"];
+//        [[RLMRealm defaultRealm] deleteObjects:results];
+//        //删除所有数据
+//        [[RLMRealm defaultRealm] deleteAllObjects];
+//    }];
+//
+//    //修改
+//    RealmBaseModel *model = [RealmBaseModel new];
+//    model.userId = 1;
+//    model.name = @"小星星";
+//    [[RLMRealm defaultRealm] transactionWithBlock:^{
+//        [[RLMRealm defaultRealm] addOrUpdateObject:model];
+//    }];
 }
 
 @end

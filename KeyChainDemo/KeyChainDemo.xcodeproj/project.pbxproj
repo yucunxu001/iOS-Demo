@@ -31,8 +31,6 @@
 		01C1DABA225B4C87008F58CA /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1DAB9225B4C87008F58CA /* Person.m */; };
 		01C1DABD225B6644008F58CA /* FMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1DABC225B6644008F58CA /* FMDBManager.m */; };
 		01C1DAC0225B75E8008F58CA /* RealmBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1DABF225B75E8008F58CA /* RealmBaseModel.m */; };
-		01C1DAC3225B762B008F58CA /* RealmPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1DAC2225B762B008F58CA /* RealmPersonModel.m */; };
-		01C1DAC6225B763D008F58CA /* RealmCarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C1DAC5225B763D008F58CA /* RealmCarModel.m */; };
 		0FC8EAEF6AD4416335A0F5D8 /* libPods-KeyChainDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE03CCB0611AF8EF3230CDEB /* libPods-KeyChainDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -100,10 +98,6 @@
 		01C1DABC225B6644008F58CA /* FMDBManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMDBManager.m; sourceTree = "<group>"; };
 		01C1DABE225B75E8008F58CA /* RealmBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmBaseModel.h; sourceTree = "<group>"; };
 		01C1DABF225B75E8008F58CA /* RealmBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmBaseModel.m; sourceTree = "<group>"; };
-		01C1DAC1225B762B008F58CA /* RealmPersonModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmPersonModel.h; sourceTree = "<group>"; };
-		01C1DAC2225B762B008F58CA /* RealmPersonModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmPersonModel.m; sourceTree = "<group>"; };
-		01C1DAC4225B763D008F58CA /* RealmCarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RealmCarModel.h; sourceTree = "<group>"; };
-		01C1DAC5225B763D008F58CA /* RealmCarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RealmCarModel.m; sourceTree = "<group>"; };
 		363108FA2429DBA826DC55AF /* Pods-KeyChainDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyChainDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyChainDemo/Pods-KeyChainDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		AE03CCB0611AF8EF3230CDEB /* libPods-KeyChainDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KeyChainDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -168,10 +162,6 @@
 				0134D8512255A3ED006146A9 /* ViewController.m */,
 				01C1DABE225B75E8008F58CA /* RealmBaseModel.h */,
 				01C1DABF225B75E8008F58CA /* RealmBaseModel.m */,
-				01C1DAC1225B762B008F58CA /* RealmPersonModel.h */,
-				01C1DAC2225B762B008F58CA /* RealmPersonModel.m */,
-				01C1DAC4225B763D008F58CA /* RealmCarModel.h */,
-				01C1DAC5225B763D008F58CA /* RealmCarModel.m */,
 				01C1DABB225B6644008F58CA /* FMDBManager.h */,
 				01C1DABC225B6644008F58CA /* FMDBManager.m */,
 				01C1DAB7225B4C72008F58CA /* SQLite */,
@@ -430,7 +420,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				01C1DAC3225B762B008F58CA /* RealmPersonModel.m in Sources */,
 				01C1DAA7225B24ED008F58CA /* TeacherModel+CoreDataClass.m in Sources */,
 				0134D8522255A3ED006146A9 /* ViewController.m in Sources */,
 				01C1DABD225B6644008F58CA /* FMDBManager.m in Sources */,
@@ -442,7 +431,6 @@
 				01C1DAC0225B75E8008F58CA /* RealmBaseModel.m in Sources */,
 				01C1DAB6225B4B13008F58CA /* SQLiteDBManager.m in Sources */,
 				01C1DAAB225B251A008F58CA /* CoreDataManager.m in Sources */,
-				01C1DAC6225B763D008F58CA /* RealmCarModel.m in Sources */,
 				01C1DAA5225B24ED008F58CA /* StudentModel+CoreDataClass.m in Sources */,
 				01C1DA83225B2183008F58CA /* Demo.xcdatamodeld in Sources */,
 				01C1DA80225B1C3D008F58CA /* MusicDefaults.m in Sources */,
