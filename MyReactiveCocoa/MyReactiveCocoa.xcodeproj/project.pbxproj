@@ -15,6 +15,10 @@
 		012BE4A6224E1AEC0030A2E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BE4A5224E1AEC0030A2E3 /* main.m */; };
 		012BE4B0224E1AEC0030A2E3 /* MyReactiveCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BE4AF224E1AEC0030A2E3 /* MyReactiveCocoaTests.m */; };
 		012BE4BB224E1AEC0030A2E3 /* MyReactiveCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BE4BA224E1AEC0030A2E3 /* MyReactiveCocoaUITests.m */; };
+		01A51C6C225C81200021549E /* RACSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A51C6B225C81200021549E /* RACSignalViewController.m */; };
+		01A51C6F225C8F940021549E /* RACSubscriberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A51C6E225C8F940021549E /* RACSubscriberViewController.m */; };
+		01A51C73225C97730021549E /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A51C72225C97730021549E /* RedView.m */; };
+		01A51C76225C9FA40021549E /* RACTupleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A51C75225C9FA40021549E /* RACTupleViewController.m */; };
 		0FD28884BCE6A7C3B0EEE498 /* libPods-MyReactiveCocoa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0045453B2E27CD2901354A79 /* libPods-MyReactiveCocoa.a */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +57,14 @@
 		012BE4B6224E1AEC0030A2E3 /* MyReactiveCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReactiveCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012BE4BA224E1AEC0030A2E3 /* MyReactiveCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyReactiveCocoaUITests.m; sourceTree = "<group>"; };
 		012BE4BC224E1AEC0030A2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01A51C6A225C81200021549E /* RACSignalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSignalViewController.h; sourceTree = "<group>"; };
+		01A51C6B225C81200021549E /* RACSignalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalViewController.m; sourceTree = "<group>"; };
+		01A51C6D225C8F940021549E /* RACSubscriberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubscriberViewController.h; sourceTree = "<group>"; };
+		01A51C6E225C8F940021549E /* RACSubscriberViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSubscriberViewController.m; sourceTree = "<group>"; };
+		01A51C71225C97730021549E /* RedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		01A51C72225C97730021549E /* RedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		01A51C74225C9FA40021549E /* RACTupleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACTupleViewController.h; sourceTree = "<group>"; };
+		01A51C75225C9FA40021549E /* RACTupleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTupleViewController.m; sourceTree = "<group>"; };
 		BF1D6C3BAA1228D05C14C6EA /* Pods-MyReactiveCocoa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReactiveCocoa.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyReactiveCocoa/Pods-MyReactiveCocoa.release.xcconfig"; sourceTree = "<group>"; };
 		C6B25525DAD2B2AD0209004C /* Pods-MyReactiveCocoa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReactiveCocoa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyReactiveCocoa/Pods-MyReactiveCocoa.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +124,13 @@
 				012BE497224E1AEA0030A2E3 /* AppDelegate.m */,
 				012BE499224E1AEA0030A2E3 /* ViewController.h */,
 				012BE49A224E1AEA0030A2E3 /* ViewController.m */,
+				01A51C70225C97490021549E /* View */,
+				01A51C6A225C81200021549E /* RACSignalViewController.h */,
+				01A51C6B225C81200021549E /* RACSignalViewController.m */,
+				01A51C6D225C8F940021549E /* RACSubscriberViewController.h */,
+				01A51C6E225C8F940021549E /* RACSubscriberViewController.m */,
+				01A51C74225C9FA40021549E /* RACTupleViewController.h */,
+				01A51C75225C9FA40021549E /* RACTupleViewController.m */,
 				012BE49C224E1AEA0030A2E3 /* Main.storyboard */,
 				012BE49F224E1AEC0030A2E3 /* Assets.xcassets */,
 				012BE4A1224E1AEC0030A2E3 /* LaunchScreen.storyboard */,
@@ -137,6 +156,15 @@
 				012BE4BC224E1AEC0030A2E3 /* Info.plist */,
 			);
 			path = MyReactiveCocoaUITests;
+			sourceTree = "<group>";
+		};
+		01A51C70225C97490021549E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				01A51C71225C97730021549E /* RedView.h */,
+				01A51C72225C97730021549E /* RedView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		8E059B990CA49B49C95729FC /* Frameworks */ = {
@@ -308,9 +336,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01A51C6F225C8F940021549E /* RACSubscriberViewController.m in Sources */,
 				012BE49B224E1AEA0030A2E3 /* ViewController.m in Sources */,
+				01A51C76225C9FA40021549E /* RACTupleViewController.m in Sources */,
+				01A51C73225C97730021549E /* RedView.m in Sources */,
 				012BE4A6224E1AEC0030A2E3 /* main.m in Sources */,
 				012BE498224E1AEA0030A2E3 /* AppDelegate.m in Sources */,
+				01A51C6C225C81200021549E /* RACSignalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
