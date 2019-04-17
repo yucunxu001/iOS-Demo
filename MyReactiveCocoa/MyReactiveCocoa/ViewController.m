@@ -30,12 +30,18 @@ static NSString *cellId = @"cellId";
     dataArray = @[
                   @"RACSignal",
                   @"RACSubscriber",
-                  @"RACTuple"
+                  @"RACTuple",
+                  @"RACMulticastConnection",
+                  @"RACCommand",
+                  @"RACMethod"
                   ];
     classArr = @[
                  @"RACSignalViewController",
                  @"RACSubscriberViewController",
-                 @"RACTupleViewController"
+                 @"RACTupleViewController",
+                 @"RACMulticastConnectionViewController",
+                 @"RACCommandViewController",
+                 @"RACMethodViewController"
                  ];
     
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];

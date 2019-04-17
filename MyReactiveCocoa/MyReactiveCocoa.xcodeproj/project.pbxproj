@@ -15,6 +15,10 @@
 		012BE4A6224E1AEC0030A2E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BE4A5224E1AEC0030A2E3 /* main.m */; };
 		012BE4B0224E1AEC0030A2E3 /* MyReactiveCocoaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BE4AF224E1AEC0030A2E3 /* MyReactiveCocoaTests.m */; };
 		012BE4BB224E1AEC0030A2E3 /* MyReactiveCocoaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 012BE4BA224E1AEC0030A2E3 /* MyReactiveCocoaUITests.m */; };
+		01990EEB225D85C200663066 /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01990EEA225D85C200663066 /* PropertyList.plist */; };
+		01990EF1225D8E7100663066 /* RACMulticastConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01990EF0225D8E7100663066 /* RACMulticastConnectionViewController.m */; };
+		01990EF4225D935F00663066 /* RACCommandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01990EF3225D935F00663066 /* RACCommandViewController.m */; };
+		01990EF7225DB3A500663066 /* RACMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01990EF6225DB3A500663066 /* RACMethodViewController.m */; };
 		01A51C6C225C81200021549E /* RACSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A51C6B225C81200021549E /* RACSignalViewController.m */; };
 		01A51C6F225C8F940021549E /* RACSubscriberViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A51C6E225C8F940021549E /* RACSubscriberViewController.m */; };
 		01A51C73225C97730021549E /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A51C72225C97730021549E /* RedView.m */; };
@@ -57,6 +61,13 @@
 		012BE4B6224E1AEC0030A2E3 /* MyReactiveCocoaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyReactiveCocoaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		012BE4BA224E1AEC0030A2E3 /* MyReactiveCocoaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyReactiveCocoaUITests.m; sourceTree = "<group>"; };
 		012BE4BC224E1AEC0030A2E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01990EEA225D85C200663066 /* PropertyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		01990EEF225D8E7100663066 /* RACMulticastConnectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACMulticastConnectionViewController.h; sourceTree = "<group>"; };
+		01990EF0225D8E7100663066 /* RACMulticastConnectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACMulticastConnectionViewController.m; sourceTree = "<group>"; };
+		01990EF2225D935F00663066 /* RACCommandViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCommandViewController.h; sourceTree = "<group>"; };
+		01990EF3225D935F00663066 /* RACCommandViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCommandViewController.m; sourceTree = "<group>"; };
+		01990EF5225DB3A400663066 /* RACMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACMethodViewController.h; sourceTree = "<group>"; };
+		01990EF6225DB3A500663066 /* RACMethodViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACMethodViewController.m; sourceTree = "<group>"; };
 		01A51C6A225C81200021549E /* RACSignalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSignalViewController.h; sourceTree = "<group>"; };
 		01A51C6B225C81200021549E /* RACSignalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACSignalViewController.m; sourceTree = "<group>"; };
 		01A51C6D225C8F940021549E /* RACSubscriberViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACSubscriberViewController.h; sourceTree = "<group>"; };
@@ -131,6 +142,13 @@
 				01A51C6E225C8F940021549E /* RACSubscriberViewController.m */,
 				01A51C74225C9FA40021549E /* RACTupleViewController.h */,
 				01A51C75225C9FA40021549E /* RACTupleViewController.m */,
+				01990EEF225D8E7100663066 /* RACMulticastConnectionViewController.h */,
+				01990EF0225D8E7100663066 /* RACMulticastConnectionViewController.m */,
+				01990EF2225D935F00663066 /* RACCommandViewController.h */,
+				01990EF3225D935F00663066 /* RACCommandViewController.m */,
+				01990EF5225DB3A400663066 /* RACMethodViewController.h */,
+				01990EF6225DB3A500663066 /* RACMethodViewController.m */,
+				01990EEA225D85C200663066 /* PropertyList.plist */,
 				012BE49C224E1AEA0030A2E3 /* Main.storyboard */,
 				012BE49F224E1AEC0030A2E3 /* Assets.xcassets */,
 				012BE4A1224E1AEC0030A2E3 /* LaunchScreen.storyboard */,
@@ -289,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				012BE4A3224E1AEC0030A2E3 /* LaunchScreen.storyboard in Resources */,
+				01990EEB225D85C200663066 /* PropertyList.plist in Resources */,
 				012BE4A0224E1AEC0030A2E3 /* Assets.xcassets in Resources */,
 				012BE49E224E1AEA0030A2E3 /* Main.storyboard in Resources */,
 			);
@@ -337,11 +356,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				01A51C6F225C8F940021549E /* RACSubscriberViewController.m in Sources */,
+				01990EF4225D935F00663066 /* RACCommandViewController.m in Sources */,
 				012BE49B224E1AEA0030A2E3 /* ViewController.m in Sources */,
 				01A51C76225C9FA40021549E /* RACTupleViewController.m in Sources */,
 				01A51C73225C97730021549E /* RedView.m in Sources */,
+				01990EF1225D8E7100663066 /* RACMulticastConnectionViewController.m in Sources */,
 				012BE4A6224E1AEC0030A2E3 /* main.m in Sources */,
 				012BE498224E1AEA0030A2E3 /* AppDelegate.m in Sources */,
+				01990EF7225DB3A500663066 /* RACMethodViewController.m in Sources */,
 				01A51C6C225C81200021549E /* RACSignalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

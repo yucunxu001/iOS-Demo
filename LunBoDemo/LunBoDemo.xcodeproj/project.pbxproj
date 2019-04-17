@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013B1AAD22649FBE00F256E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 013B1AAC22649FBE00F256E3 /* AppDelegate.m */; };
+		013B1AB022649FBE00F256E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 013B1AAF22649FBE00F256E3 /* ViewController.m */; };
+		013B1AB322649FBE00F256E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013B1AB122649FBE00F256E3 /* Main.storyboard */; };
+		013B1AB522649FC000F256E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 013B1AB422649FC000F256E3 /* Assets.xcassets */; };
+		013B1AB822649FC000F256E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013B1AB622649FC000F256E3 /* LaunchScreen.storyboard */; };
+		013B1ABB22649FC000F256E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013B1ABA22649FC000F256E3 /* main.m */; };
+		013B1AC522649FC000F256E3 /* LunBoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013B1AC422649FC000F256E3 /* LunBoDemoTests.m */; };
+		013B1AD022649FC000F256E3 /* LunBoDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 013B1ACF22649FC000F256E3 /* LunBoDemoUITests.m */; };
+		013B1ADF22649FEB00F256E3 /* HVWBorderShownCardsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 013B1ADE22649FEB00F256E3 /* HVWBorderShownCardsView.m */; };
+		013B1AE22264A06600F256E3 /* HVWBorderShownCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 013B1AE12264A06600F256E3 /* HVWBorderShownCardCell.m */; };
+		013B1AE92264A3B900F256E3 /* image5.png in Resources */ = {isa = PBXBuildFile; fileRef = 013B1AE42264A3B800F256E3 /* image5.png */; };
+		013B1AEA2264A3B900F256E3 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 013B1AE52264A3B800F256E3 /* image1.png */; };
+		013B1AEB2264A3B900F256E3 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 013B1AE62264A3B800F256E3 /* image3.png */; };
+		013B1AEC2264A3B900F256E3 /* image4.png in Resources */ = {isa = PBXBuildFile; fileRef = 013B1AE72264A3B900F256E3 /* image4.png */; };
+		013B1AED2264A3B900F256E3 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 013B1AE82264A3B900F256E3 /* image2.png */; };
+		019B72FB2266B90A003C5034 /* CardLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B72F92266B90A003C5034 /* CardLayOut.m */; };
+		019B72FE2266BB3C003C5034 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B72FD2266BB3C003C5034 /* CardView.m */; };
+		01A9B842226569FC0053568F /* LunBoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9B841226569FC0053568F /* LunBoCollectionViewCell.m */; };
+		01A9B845226571520053568F /* LunBoFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9B844226571520053568F /* LunBoFlowLayout.m */; };
+		01A9B8482265DADD0053568F /* DemoFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9B8472265DADD0053568F /* DemoFlowLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		013B1AC122649FC000F256E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013B1AA022649FBE00F256E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013B1AA722649FBE00F256E3;
+			remoteInfo = LunBoDemo;
+		};
+		013B1ACC22649FC000F256E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 013B1AA022649FBE00F256E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 013B1AA722649FBE00F256E3;
+			remoteInfo = LunBoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013B1AA822649FBE00F256E3 /* LunBoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LunBoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		013B1AAB22649FBE00F256E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		013B1AAC22649FBE00F256E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		013B1AAE22649FBE00F256E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		013B1AAF22649FBE00F256E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		013B1AB222649FBE00F256E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		013B1AB422649FC000F256E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		013B1AB722649FC000F256E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		013B1AB922649FC000F256E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013B1ABA22649FC000F256E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		013B1AC022649FC000F256E3 /* LunBoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunBoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013B1AC422649FC000F256E3 /* LunBoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunBoDemoTests.m; sourceTree = "<group>"; };
+		013B1AC622649FC000F256E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013B1ACB22649FC000F256E3 /* LunBoDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LunBoDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		013B1ACF22649FC000F256E3 /* LunBoDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunBoDemoUITests.m; sourceTree = "<group>"; };
+		013B1AD122649FC000F256E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		013B1ADD22649FEB00F256E3 /* HVWBorderShownCardsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVWBorderShownCardsView.h; sourceTree = "<group>"; };
+		013B1ADE22649FEB00F256E3 /* HVWBorderShownCardsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVWBorderShownCardsView.m; sourceTree = "<group>"; };
+		013B1AE02264A06600F256E3 /* HVWBorderShownCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HVWBorderShownCardCell.h; sourceTree = "<group>"; };
+		013B1AE12264A06600F256E3 /* HVWBorderShownCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVWBorderShownCardCell.m; sourceTree = "<group>"; };
+		013B1AE42264A3B800F256E3 /* image5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image5.png; sourceTree = "<group>"; };
+		013B1AE52264A3B800F256E3 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image1.png; sourceTree = "<group>"; };
+		013B1AE62264A3B800F256E3 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image3.png; sourceTree = "<group>"; };
+		013B1AE72264A3B900F256E3 /* image4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image4.png; sourceTree = "<group>"; };
+		013B1AE82264A3B900F256E3 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image2.png; sourceTree = "<group>"; };
+		019B72F92266B90A003C5034 /* CardLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardLayOut.m; sourceTree = "<group>"; };
+		019B72FA2266B90A003C5034 /* CardLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardLayOut.h; sourceTree = "<group>"; };
+		019B72FC2266BB3C003C5034 /* CardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		019B72FD2266BB3C003C5034 /* CardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		01A9B840226569FC0053568F /* LunBoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LunBoCollectionViewCell.h; sourceTree = "<group>"; };
+		01A9B841226569FC0053568F /* LunBoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunBoCollectionViewCell.m; sourceTree = "<group>"; };
+		01A9B843226571520053568F /* LunBoFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LunBoFlowLayout.h; sourceTree = "<group>"; };
+		01A9B844226571520053568F /* LunBoFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunBoFlowLayout.m; sourceTree = "<group>"; };
+		01A9B8462265DADD0053568F /* DemoFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoFlowLayout.h; sourceTree = "<group>"; };
+		01A9B8472265DADD0053568F /* DemoFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoFlowLayout.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		013B1AA522649FBE00F256E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013B1ABD22649FC000F256E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013B1AC822649FC000F256E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		013B1A9F22649FBE00F256E3 = {
+			isa = PBXGroup;
+			children = (
+				013B1AAA22649FBE00F256E3 /* LunBoDemo */,
+				013B1AC322649FC000F256E3 /* LunBoDemoTests */,
+				013B1ACE22649FC000F256E3 /* LunBoDemoUITests */,
+				013B1AA922649FBE00F256E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		013B1AA922649FBE00F256E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				013B1AA822649FBE00F256E3 /* LunBoDemo.app */,
+				013B1AC022649FC000F256E3 /* LunBoDemoTests.xctest */,
+				013B1ACB22649FC000F256E3 /* LunBoDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		013B1AAA22649FBE00F256E3 /* LunBoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				013B1AAB22649FBE00F256E3 /* AppDelegate.h */,
+				013B1AAC22649FBE00F256E3 /* AppDelegate.m */,
+				013B1AAE22649FBE00F256E3 /* ViewController.h */,
+				013B1AAF22649FBE00F256E3 /* ViewController.m */,
+				019B72FF2266BB81003C5034 /* CardView */,
+				01A9B8462265DADD0053568F /* DemoFlowLayout.h */,
+				01A9B8472265DADD0053568F /* DemoFlowLayout.m */,
+				01A9B843226571520053568F /* LunBoFlowLayout.h */,
+				01A9B844226571520053568F /* LunBoFlowLayout.m */,
+				01A9B840226569FC0053568F /* LunBoCollectionViewCell.h */,
+				01A9B841226569FC0053568F /* LunBoCollectionViewCell.m */,
+				013B1AE32264A0BA00F256E3 /* HVWBorderShownCardsView */,
+				013B1AB122649FBE00F256E3 /* Main.storyboard */,
+				013B1AB422649FC000F256E3 /* Assets.xcassets */,
+				013B1AB622649FC000F256E3 /* LaunchScreen.storyboard */,
+				013B1AB922649FC000F256E3 /* Info.plist */,
+				013B1ABA22649FC000F256E3 /* main.m */,
+			);
+			path = LunBoDemo;
+			sourceTree = "<group>";
+		};
+		013B1AC322649FC000F256E3 /* LunBoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				013B1AC422649FC000F256E3 /* LunBoDemoTests.m */,
+				013B1AC622649FC000F256E3 /* Info.plist */,
+			);
+			path = LunBoDemoTests;
+			sourceTree = "<group>";
+		};
+		013B1ACE22649FC000F256E3 /* LunBoDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				013B1ACF22649FC000F256E3 /* LunBoDemoUITests.m */,
+				013B1AD122649FC000F256E3 /* Info.plist */,
+			);
+			path = LunBoDemoUITests;
+			sourceTree = "<group>";
+		};
+		013B1AE32264A0BA00F256E3 /* HVWBorderShownCardsView */ = {
+			isa = PBXGroup;
+			children = (
+				013B1AE52264A3B800F256E3 /* image1.png */,
+				013B1AE82264A3B900F256E3 /* image2.png */,
+				013B1AE62264A3B800F256E3 /* image3.png */,
+				013B1AE72264A3B900F256E3 /* image4.png */,
+				013B1AE42264A3B800F256E3 /* image5.png */,
+				013B1ADD22649FEB00F256E3 /* HVWBorderShownCardsView.h */,
+				013B1ADE22649FEB00F256E3 /* HVWBorderShownCardsView.m */,
+				013B1AE02264A06600F256E3 /* HVWBorderShownCardCell.h */,
+				013B1AE12264A06600F256E3 /* HVWBorderShownCardCell.m */,
+			);
+			path = HVWBorderShownCardsView;
+			sourceTree = "<group>";
+		};
+		019B72FF2266BB81003C5034 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				019B72FC2266BB3C003C5034 /* CardView.h */,
+				019B72FD2266BB3C003C5034 /* CardView.m */,
+				019B72FA2266B90A003C5034 /* CardLayOut.h */,
+				019B72F92266B90A003C5034 /* CardLayOut.m */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		013B1AA722649FBE00F256E3 /* LunBoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013B1AD422649FC000F256E3 /* Build configuration list for PBXNativeTarget "LunBoDemo" */;
+			buildPhases = (
+				013B1AA422649FBE00F256E3 /* Sources */,
+				013B1AA522649FBE00F256E3 /* Frameworks */,
+				013B1AA622649FBE00F256E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LunBoDemo;
+			productName = LunBoDemo;
+			productReference = 013B1AA822649FBE00F256E3 /* LunBoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		013B1ABF22649FC000F256E3 /* LunBoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013B1AD722649FC000F256E3 /* Build configuration list for PBXNativeTarget "LunBoDemoTests" */;
+			buildPhases = (
+				013B1ABC22649FC000F256E3 /* Sources */,
+				013B1ABD22649FC000F256E3 /* Frameworks */,
+				013B1ABE22649FC000F256E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013B1AC222649FC000F256E3 /* PBXTargetDependency */,
+			);
+			name = LunBoDemoTests;
+			productName = LunBoDemoTests;
+			productReference = 013B1AC022649FC000F256E3 /* LunBoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		013B1ACA22649FC000F256E3 /* LunBoDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 013B1ADA22649FC000F256E3 /* Build configuration list for PBXNativeTarget "LunBoDemoUITests" */;
+			buildPhases = (
+				013B1AC722649FC000F256E3 /* Sources */,
+				013B1AC822649FC000F256E3 /* Frameworks */,
+				013B1AC922649FC000F256E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				013B1ACD22649FC000F256E3 /* PBXTargetDependency */,
+			);
+			name = LunBoDemoUITests;
+			productName = LunBoDemoUITests;
+			productReference = 013B1ACB22649FC000F256E3 /* LunBoDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		013B1AA022649FBE00F256E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "mkrq-yh";
+				TargetAttributes = {
+					013B1AA722649FBE00F256E3 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					013B1ABF22649FC000F256E3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 013B1AA722649FBE00F256E3;
+					};
+					013B1ACA22649FC000F256E3 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 013B1AA722649FBE00F256E3;
+					};
+				};
+			};
+			buildConfigurationList = 013B1AA322649FBE00F256E3 /* Build configuration list for PBXProject "LunBoDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 013B1A9F22649FBE00F256E3;
+			productRefGroup = 013B1AA922649FBE00F256E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				013B1AA722649FBE00F256E3 /* LunBoDemo */,
+				013B1ABF22649FC000F256E3 /* LunBoDemoTests */,
+				013B1ACA22649FC000F256E3 /* LunBoDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		013B1AA622649FBE00F256E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013B1AB822649FC000F256E3 /* LaunchScreen.storyboard in Resources */,
+				013B1AEB2264A3B900F256E3 /* image3.png in Resources */,
+				013B1AED2264A3B900F256E3 /* image2.png in Resources */,
+				013B1AEA2264A3B900F256E3 /* image1.png in Resources */,
+				013B1AE92264A3B900F256E3 /* image5.png in Resources */,
+				013B1AEC2264A3B900F256E3 /* image4.png in Resources */,
+				013B1AB522649FC000F256E3 /* Assets.xcassets in Resources */,
+				013B1AB322649FBE00F256E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013B1ABE22649FC000F256E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013B1AC922649FC000F256E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013B1AA422649FBE00F256E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013B1AB022649FBE00F256E3 /* ViewController.m in Sources */,
+				019B72FB2266B90A003C5034 /* CardLayOut.m in Sources */,
+				019B72FE2266BB3C003C5034 /* CardView.m in Sources */,
+				013B1AE22264A06600F256E3 /* HVWBorderShownCardCell.m in Sources */,
+				013B1ABB22649FC000F256E3 /* main.m in Sources */,
+				013B1ADF22649FEB00F256E3 /* HVWBorderShownCardsView.m in Sources */,
+				013B1AAD22649FBE00F256E3 /* AppDelegate.m in Sources */,
+				01A9B845226571520053568F /* LunBoFlowLayout.m in Sources */,
+				01A9B8482265DADD0053568F /* DemoFlowLayout.m in Sources */,
+				01A9B842226569FC0053568F /* LunBoCollectionViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013B1ABC22649FC000F256E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013B1AC522649FC000F256E3 /* LunBoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		013B1AC722649FC000F256E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				013B1AD022649FC000F256E3 /* LunBoDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		013B1AC222649FC000F256E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013B1AA722649FBE00F256E3 /* LunBoDemo */;
+			targetProxy = 013B1AC122649FC000F256E3 /* PBXContainerItemProxy */;
+		};
+		013B1ACD22649FC000F256E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 013B1AA722649FBE00F256E3 /* LunBoDemo */;
+			targetProxy = 013B1ACC22649FC000F256E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		013B1AB122649FBE00F256E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013B1AB222649FBE00F256E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		013B1AB622649FC000F256E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				013B1AB722649FC000F256E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		013B1AD222649FC000F256E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		013B1AD322649FC000F256E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		013B1AD522649FC000F256E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC8FT77226;
+				INFOPLIST_FILE = LunBoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.LunBoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		013B1AD622649FC000F256E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC8FT77226;
+				INFOPLIST_FILE = LunBoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.LunBoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		013B1AD822649FC000F256E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC8FT77226;
+				INFOPLIST_FILE = LunBoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.LunBoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunBoDemo.app/LunBoDemo";
+			};
+			name = Debug;
+		};
+		013B1AD922649FC000F256E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC8FT77226;
+				INFOPLIST_FILE = LunBoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.LunBoDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LunBoDemo.app/LunBoDemo";
+			};
+			name = Release;
+		};
+		013B1ADB22649FC000F256E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC8FT77226;
+				INFOPLIST_FILE = LunBoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.LunBoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LunBoDemo;
+			};
+			name = Debug;
+		};
+		013B1ADC22649FC000F256E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DC8FT77226;
+				INFOPLIST_FILE = LunBoDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = mkrq.LunBoDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LunBoDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		013B1AA322649FBE00F256E3 /* Build configuration list for PBXProject "LunBoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013B1AD222649FC000F256E3 /* Debug */,
+				013B1AD322649FC000F256E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013B1AD422649FC000F256E3 /* Build configuration list for PBXNativeTarget "LunBoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013B1AD522649FC000F256E3 /* Debug */,
+				013B1AD622649FC000F256E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013B1AD722649FC000F256E3 /* Build configuration list for PBXNativeTarget "LunBoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013B1AD822649FC000F256E3 /* Debug */,
+				013B1AD922649FC000F256E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		013B1ADA22649FC000F256E3 /* Build configuration list for PBXNativeTarget "LunBoDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				013B1ADB22649FC000F256E3 /* Debug */,
+				013B1ADC22649FC000F256E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 013B1AA022649FBE00F256E3 /* Project object */;
+}
