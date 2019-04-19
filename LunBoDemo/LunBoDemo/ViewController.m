@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HVWBorderShownCardsView.h"
 #import "CardView/CardView.h"
+#import "DemoView/DemoView.h"
 
 @interface ViewController ()
 
@@ -39,9 +40,14 @@
     [dataArray removeAllObjects];
     dataArray = [[NSMutableArray alloc] initWithArray:realArray];
     
-    CardView *cardView = [[CardView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300)];
-    cardView.data = dataArray;
-    [self.view addSubview:cardView];
+//    CardView *cardView = [[CardView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 300)];
+//    cardView.data = dataArray;
+//    [self.view addSubview:cardView];
+    
+    DemoView *demoView = [[DemoView alloc] initWithFrame:CGRectMake(0, 100, self.view.frame.size.width, 200)];
+    demoView.backgroundColor = [UIColor redColor];
+    demoView.data = dataArray;
+    [self.view addSubview:demoView];
     
 }
 

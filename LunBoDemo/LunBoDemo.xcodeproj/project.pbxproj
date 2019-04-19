@@ -24,6 +24,7 @@
 		013B1AED2264A3B900F256E3 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 013B1AE82264A3B900F256E3 /* image2.png */; };
 		019B72FB2266B90A003C5034 /* CardLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B72F92266B90A003C5034 /* CardLayOut.m */; };
 		019B72FE2266BB3C003C5034 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B72FD2266BB3C003C5034 /* CardView.m */; };
+		019B7314226727CC003C5034 /* DemoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 019B7313226727CC003C5034 /* DemoView.m */; };
 		01A9B842226569FC0053568F /* LunBoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9B841226569FC0053568F /* LunBoCollectionViewCell.m */; };
 		01A9B845226571520053568F /* LunBoFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9B844226571520053568F /* LunBoFlowLayout.m */; };
 		01A9B8482265DADD0053568F /* DemoFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A9B8472265DADD0053568F /* DemoFlowLayout.m */; };
@@ -76,6 +77,8 @@
 		019B72FA2266B90A003C5034 /* CardLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardLayOut.h; sourceTree = "<group>"; };
 		019B72FC2266BB3C003C5034 /* CardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
 		019B72FD2266BB3C003C5034 /* CardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		019B7312226727CC003C5034 /* DemoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoView.h; sourceTree = "<group>"; };
+		019B7313226727CC003C5034 /* DemoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoView.m; sourceTree = "<group>"; };
 		01A9B840226569FC0053568F /* LunBoCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LunBoCollectionViewCell.h; sourceTree = "<group>"; };
 		01A9B841226569FC0053568F /* LunBoCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LunBoCollectionViewCell.m; sourceTree = "<group>"; };
 		01A9B843226571520053568F /* LunBoFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LunBoFlowLayout.h; sourceTree = "<group>"; };
@@ -137,8 +140,7 @@
 				013B1AAE22649FBE00F256E3 /* ViewController.h */,
 				013B1AAF22649FBE00F256E3 /* ViewController.m */,
 				019B72FF2266BB81003C5034 /* CardView */,
-				01A9B8462265DADD0053568F /* DemoFlowLayout.h */,
-				01A9B8472265DADD0053568F /* DemoFlowLayout.m */,
+				019B7311226727AE003C5034 /* DemoView */,
 				01A9B843226571520053568F /* LunBoFlowLayout.h */,
 				01A9B844226571520053568F /* LunBoFlowLayout.m */,
 				01A9B840226569FC0053568F /* LunBoCollectionViewCell.h */,
@@ -196,6 +198,17 @@
 				019B72F92266B90A003C5034 /* CardLayOut.m */,
 			);
 			path = CardView;
+			sourceTree = "<group>";
+		};
+		019B7311226727AE003C5034 /* DemoView */ = {
+			isa = PBXGroup;
+			children = (
+				019B7312226727CC003C5034 /* DemoView.h */,
+				019B7313226727CC003C5034 /* DemoView.m */,
+				01A9B8462265DADD0053568F /* DemoFlowLayout.h */,
+				01A9B8472265DADD0053568F /* DemoFlowLayout.m */,
+			);
+			path = DemoView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +351,7 @@
 				019B72FE2266BB3C003C5034 /* CardView.m in Sources */,
 				013B1AE22264A06600F256E3 /* HVWBorderShownCardCell.m in Sources */,
 				013B1ABB22649FC000F256E3 /* main.m in Sources */,
+				019B7314226727CC003C5034 /* DemoView.m in Sources */,
 				013B1ADF22649FEB00F256E3 /* HVWBorderShownCardsView.m in Sources */,
 				013B1AAD22649FBE00F256E3 /* AppDelegate.m in Sources */,
 				01A9B845226571520053568F /* LunBoFlowLayout.m in Sources */,

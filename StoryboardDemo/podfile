@@ -1,0 +1,7 @@
+platform :ios, '8.0'
+target ‘StoryboardDemo’ do
+
+pod 'Toast', '~> 4.0.0'
+pod ‘Masonry’
+
+end

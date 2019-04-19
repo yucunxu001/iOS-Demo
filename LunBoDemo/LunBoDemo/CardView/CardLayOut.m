@@ -43,17 +43,6 @@
     return CGSizeMake(width, height);
 }
 
-- (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
-    
-    UICollectionViewLayoutAttributes *attribute = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
-    attribute.size = self.itemSize;
-    
-    CGFloat x = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? self.edgeInset.left + indexPath.item*(self.spacing+self.itemSize.width) : 0.5*(self.collectionView.bounds.size.width - self.itemSize.width);
-    CGFloat y = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? 0.5*(self.collectionView.bounds.size.height - self.itemSize.height) : self.edgeInset.top + indexPath.item*(self.spacing+self.itemSize.height);
-    attribute.frame = CGRectMake(x, y, attribute.size.width, attribute.size.height);
-    
-    return attribute;
-}
 /*
  中间的滚动视图在滑动的时候发现卡片是叠在一起的，中间的在上层，其他部分在下层，根据距离中间位置的远近来区别上下层。
  */
@@ -77,26 +66,6 @@
     }
     return attributes;
 }
-/*
- 中间的滚动视图是一块一块移动的，停止时距离中间最近的卡片会自动滑动到中间，居中对齐。
- */
-- (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity {
-    CGRect oldRect = CGRectMake(proposedContentOffset.x, proposedContentOffset.y, self.collectionView.bounds.size.width, self.collectionView.bounds.size.height);
-    NSArray *attributes = [self layoutAttributesForElementsInRect:oldRect];
-
-    CGFloat minOffset = MAXFLOAT;
-    CGFloat center = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? proposedContentOffset.x + 0.5*self.collectionView.bounds.size.width : proposedContentOffset.y + 0.5*self.collectionView.bounds.size.height;
-
-    for (UICollectionViewLayoutAttributes* attribute in attributes) {
-        CGFloat offset = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? attribute.center.x - center : attribute.center.y - center;
-        if (ABS(offset) < ABS(minOffset)) {
-            minOffset = offset;
-        }
-    }
-    CGFloat newX = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? proposedContentOffset.x + minOffset : proposedContentOffset.x;
-    CGFloat newY = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? proposedContentOffset.y : proposedContentOffset.y + minOffset;
-    return CGPointMake(newX, newY);
-}
 
 - (NSArray *)attributesInRect:(CGRect)rect {
     
@@ -116,6 +85,39 @@
         }
     }
     return self.rectAttributes;
+}
+
+- (UICollectionViewLayoutAttributes *)layoutAttributesForItemAtIndexPath:(NSIndexPath *)indexPath {
+    
+    UICollectionViewLayoutAttributes *attribute = [UICollectionViewLayoutAttributes layoutAttributesForCellWithIndexPath:indexPath];
+    attribute.size = self.itemSize;
+    
+    CGFloat x = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? self.edgeInset.left + indexPath.item*(self.spacing+self.itemSize.width) : 0.5*(self.collectionView.bounds.size.width - self.itemSize.width);
+    CGFloat y = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? 0.5*(self.collectionView.bounds.size.height - self.itemSize.height) : self.edgeInset.top + indexPath.item*(self.spacing+self.itemSize.height);
+    attribute.frame = CGRectMake(x, y, attribute.size.width, attribute.size.height);
+    
+    return attribute;
+}
+
+/*
+ 中间的滚动视图是一块一块移动的，停止时距离中间最近的卡片会自动滑动到中间，居中对齐。
+ */
+- (CGPoint)targetContentOffsetForProposedContentOffset:(CGPoint)proposedContentOffset withScrollingVelocity:(CGPoint)velocity {
+    CGRect oldRect = CGRectMake(proposedContentOffset.x, proposedContentOffset.y, self.collectionView.bounds.size.width, self.collectionView.bounds.size.height);
+    NSArray *attributes = [self layoutAttributesForElementsInRect:oldRect];
+
+    CGFloat minOffset = MAXFLOAT;
+    CGFloat center = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? proposedContentOffset.x + 0.5*self.collectionView.bounds.size.width : proposedContentOffset.y + 0.5*self.collectionView.bounds.size.height;
+
+    for (UICollectionViewLayoutAttributes* attribute in attributes) {
+        CGFloat offset = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? attribute.center.x - center : attribute.center.y - center;
+        if (ABS(offset) < ABS(minOffset)) {
+            minOffset = offset;
+        }
+    }
+    CGFloat newX = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? proposedContentOffset.x + minOffset : proposedContentOffset.x;
+    CGFloat newY = self.scrollDirection==UICollectionViewScrollDirectionHorizontal ? proposedContentOffset.y : proposedContentOffset.y + minOffset;
+    return CGPointMake(newX, newY);
 }
 
 - (void)setSpacing:(CGFloat)spacing {
