@@ -37,8 +37,8 @@
              @"CAAnimationGroup 基本使用",
              @"CAKeyframeAnimationVC 基本使用",
              @"CATransitionVC 基本使用",
-             @"不同的KeyPath的 基本使用",
              @"CASpringAnimationVC 基本使用",
+             @"自定义动画控件",
              ];
     for (int i = 0; i < data.count; i++) {
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
@@ -70,11 +70,11 @@
         CATransitionVC *base = [CATransitionVC new];
         [self.navigationController pushViewController:base animated:YES];
     } else if (sender.tag == 5) {
-        DemoViewController *demo = [DemoViewController new];
-        [self.navigationController pushViewController:demo animated:YES];
-    } else if (sender.tag == 6) {
         CASpringAnimationVC *spring = [[CASpringAnimationVC alloc] init];
         [self.navigationController pushViewController:spring animated:YES];
+    } else if (sender.tag == 6) {
+        DemoViewController *demo = [DemoViewController new];
+        [self.navigationController pushViewController:demo animated:YES];
     } else {
         
     }

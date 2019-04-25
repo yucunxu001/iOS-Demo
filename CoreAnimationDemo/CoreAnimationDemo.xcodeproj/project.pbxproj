@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0123CD7C2271436600A0A89C /* DWMenuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123CD7B2271436600A0A89C /* DWMenuButton.m */; };
+		0123CD7F22719F5900A0A89C /* TouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0123CD7E22719F5900A0A89C /* TouchView.m */; };
 		01315BDC226FF1ED0097D0FE /* CASpringAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 01315BDB226FF1ED0097D0FE /* CASpringAnimationVC.m */; };
 		01980587226E9CD400DD533D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01980586226E9CD400DD533D /* AppDelegate.m */; };
 		0198058A226E9CD400DD533D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01980589226E9CD400DD533D /* ViewController.m */; };
@@ -45,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0123CD7A2271436600A0A89C /* DWMenuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DWMenuButton.h; sourceTree = "<group>"; };
+		0123CD7B2271436600A0A89C /* DWMenuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DWMenuButton.m; sourceTree = "<group>"; };
+		0123CD7D22719F5900A0A89C /* TouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchView.h; sourceTree = "<group>"; };
+		0123CD7E22719F5900A0A89C /* TouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchView.m; sourceTree = "<group>"; };
 		01315BDA226FF1ED0097D0FE /* CASpringAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CASpringAnimationVC.h; sourceTree = "<group>"; };
 		01315BDB226FF1ED0097D0FE /* CASpringAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CASpringAnimationVC.m; sourceTree = "<group>"; };
 		01980582226E9CD400DD533D /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +113,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0123CD78227142B900A0A89C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				019805B7226EA09400DD533D /* BaseUseViewController.h */,
+				019805B8226EA09400DD533D /* BaseUseViewController.m */,
+				019805BA226EB20500DD533D /* CABaseAnimationVC.h */,
+				019805BB226EB20500DD533D /* CABaseAnimationVC.m */,
+				019805C1226EECE100DD533D /* CAKeyframeAnimationVC.h */,
+				019805C2226EECE100DD533D /* CAKeyframeAnimationVC.m */,
+				019805BE226EE14700DD533D /* CAAnimationGroupVC.h */,
+				019805BF226EE14700DD533D /* CAAnimationGroupVC.m */,
+				019805C4226EECFC00DD533D /* CATransitionVC.h */,
+				019805C5226EECFC00DD533D /* CATransitionVC.m */,
+				01315BDA226FF1ED0097D0FE /* CASpringAnimationVC.h */,
+				01315BDB226FF1ED0097D0FE /* CASpringAnimationVC.m */,
+				019805C7226EED6600DD533D /* DemoViewController.h */,
+				019805C8226EED6600DD533D /* DemoViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		0123CD79227142EF00A0A89C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0123CD7A2271436600A0A89C /* DWMenuButton.h */,
+				0123CD7B2271436600A0A89C /* DWMenuButton.m */,
+				0123CD7D22719F5900A0A89C /* TouchView.h */,
+				0123CD7E22719F5900A0A89C /* TouchView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		01980579226E9CD400DD533D = {
 			isa = PBXGroup;
 			children = (
@@ -136,23 +174,11 @@
 				01980586226E9CD400DD533D /* AppDelegate.m */,
 				01980588226E9CD400DD533D /* ViewController.h */,
 				01980589226E9CD400DD533D /* ViewController.m */,
-				019805BD226EBD9400DD533D /* animation.h */,
-				019805B7226EA09400DD533D /* BaseUseViewController.h */,
-				019805B8226EA09400DD533D /* BaseUseViewController.m */,
-				019805BA226EB20500DD533D /* CABaseAnimationVC.h */,
-				019805BB226EB20500DD533D /* CABaseAnimationVC.m */,
-				019805C1226EECE100DD533D /* CAKeyframeAnimationVC.h */,
-				019805C2226EECE100DD533D /* CAKeyframeAnimationVC.m */,
-				019805BE226EE14700DD533D /* CAAnimationGroupVC.h */,
-				019805BF226EE14700DD533D /* CAAnimationGroupVC.m */,
-				019805C4226EECFC00DD533D /* CATransitionVC.h */,
-				019805C5226EECFC00DD533D /* CATransitionVC.m */,
-				01315BDA226FF1ED0097D0FE /* CASpringAnimationVC.h */,
-				01315BDB226FF1ED0097D0FE /* CASpringAnimationVC.m */,
-				019805C7226EED6600DD533D /* DemoViewController.h */,
-				019805C8226EED6600DD533D /* DemoViewController.m */,
 				019805CE226F354300DD533D /* AnimationDelegate.h */,
 				019805CF226F354300DD533D /* AnimationDelegate.m */,
+				019805BD226EBD9400DD533D /* animation.h */,
+				0123CD78227142B900A0A89C /* Controllers */,
+				0123CD79227142EF00A0A89C /* Views */,
 				0198058B226E9CD400DD533D /* Main.storyboard */,
 				0198058E226E9CD500DD533D /* Assets.xcassets */,
 				01980590226E9CD500DD533D /* LaunchScreen.storyboard */,
@@ -313,7 +339,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0198058A226E9CD400DD533D /* ViewController.m in Sources */,
+				0123CD7C2271436600A0A89C /* DWMenuButton.m in Sources */,
 				019805D0226F354300DD533D /* AnimationDelegate.m in Sources */,
+				0123CD7F22719F5900A0A89C /* TouchView.m in Sources */,
 				019805B9226EA09400DD533D /* BaseUseViewController.m in Sources */,
 				019805C3226EECE100DD533D /* CAKeyframeAnimationVC.m in Sources */,
 				019805C6226EECFC00DD533D /* CATransitionVC.m in Sources */,
