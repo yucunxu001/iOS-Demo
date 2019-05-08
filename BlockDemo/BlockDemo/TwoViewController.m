@@ -28,7 +28,7 @@
 
 - (void)btnClick
 {
-    self.changeMsg(@"123456");
+    self.changeName(@"123456");
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 

@@ -10,11 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-typedef void (^ChangeMsg)(NSString *msg);
+typedef void (^ChangeName)(NSString *name);
 
 @interface TwoViewController : UIViewController
 
-@property (nonatomic,copy) ChangeMsg changeMsg;
+@property (nonatomic,copy) ChangeName changeName;
 
 @end
 
