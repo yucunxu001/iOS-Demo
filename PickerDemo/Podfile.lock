@@ -1,0 +1,16 @@
+PODS:
+  - BRPickerView (2.2.1)
+
+DEPENDENCIES:
+  - BRPickerView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BRPickerView
+
+SPEC CHECKSUMS:
+  BRPickerView: 0590a8c5de9bd98c6b4e4f117a3dff6de287d5b2
+
+PODFILE CHECKSUM: 70e42c9a241b3f8449cf391369f9df135ccd2c88
+
+COCOAPODS: 1.7.5

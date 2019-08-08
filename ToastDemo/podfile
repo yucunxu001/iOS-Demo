@@ -1,0 +1,7 @@
+platform :ios, ‘9.0’
+
+target ‘ToastDemo’ do
+
+pod 'Toast', '~> 4.0.0'
+
+end
