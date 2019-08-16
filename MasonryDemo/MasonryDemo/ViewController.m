@@ -10,16 +10,6 @@
 
 @interface ViewController ()
 
-@property (nonatomic,strong) UIView *bgView;
-@property (nonatomic,strong) UIView *oneView;
-@property (nonatomic,strong) UIView *twoView;
-@property (nonatomic,strong) UIView *threeView;
-@property (nonatomic,strong) UILabel *textLb;
-
-@property (nonatomic,strong) MASConstraint *topConstraint;
-
-@property (nonatomic,assign) NSMutableArray *masonryViewArray;
-
 @end
 
 @implementation ViewController
@@ -28,46 +18,67 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSLog(@"kScreenWidth==%f",kScreenWidth);
-    NSLog(@"kScreenHeight==%f",kScreenHeight);
-    [self initPage];
+//    [self initPage];// view1边距20，view2边距50
+    [self test1];
 }
 
+#pragma mark - view1边距20，view2边距50 -
 - (void)initPage
 {
-    self.view.backgroundColor = [UIColor colorWithRed:238/255.0 green:238/255.0 blue:238/255.0 alpha:1];
-    self.bgView = [UIView new];
-    self.bgView.backgroundColor = [UIColor greenColor];
-    [self.view addSubview:self.bgView];
+    UIView *view1 = [UIView new];
+    view1.backgroundColor = [UIColor greenColor];
+    [self.view addSubview:view1];
     
-//    [self.masonryViewArray mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedSpacing:40 leadSpacing:20 tailSpacing:20];
-//    [self.masonryViewArray mas_distributeViewsAlongAxis:MASAxisTypeHorizontal withFixedItemLength:80 leadSpacing:20 tailSpacing:20];
-//    [self.masonryViewArray mas_makeConstraints:^(MASConstraintMaker *make) {
-//        make.top.equalTo(self.view).mas_offset(100);
-//        make.height.mas_equalTo(80);
-//    }];
-
-//    [self.masonryViewArray mas_distributeViewsAlongAxis:MASAxisTypeVertical withFixedSpacing:50 leadSpacing:50 tailSpacing:50];
-    [self.masonryViewArray mas_distributeViewsAlongAxis:MASAxisTypeVertical withFixedItemLength:200 leadSpacing:40 tailSpacing:40];
-    [self.masonryViewArray mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.left.equalTo(self.view).mas_offset(20);
-        make.width.mas_equalTo(200);
+    UIView *view2 = [UIView new];
+    view2.backgroundColor = [UIColor redColor];
+    [view1 addSubview:view2];
+    
+    [view1 makeConstraints:^(MASConstraintMaker *make) {
+        
+//        make.top.equalTo(20);
+//        make.bottom.equalTo(-20);
+//        make.left.equalTo(20);
+//        make.right.equalTo(-20);
+        
+//        make.top.left.equalTo(20);
+//        make.right.bottom.equalTo(-20);
+        
+        make.edges.equalTo(UIEdgeInsetsMake(20, 20, 20, 20));
     }];
     
+    [view2 makeConstraints:^(MASConstraintMaker *make) {
+        
+//        make.top.equalTo(50);
+//        make.left.equalTo(50);
+//        make.right.equalTo(-50);
+//        make.bottom.equalTo(-50);
+        
+//        make.top.left.equalTo(50);
+//        make.right.bottom.equalTo(-50);
+        
+        make.edges.equalTo(UIEdgeInsetsMake(50, 50, 50, 50));
+    }];
 }
 
-- (NSMutableArray *)masonryViewArray
-{
-    if (!_masonryViewArray) {
-        _masonryViewArray = [NSMutableArray array];
-        for (int i = 0; i < 4; i++) {
-            UIView *view = [[UIView alloc] init];
-            view.backgroundColor = [UIColor greenColor];
-            [_masonryViewArray addObject:view];
-            [self.view addSubview:view];
-        }
-    }
-    return _masonryViewArray;
+- (void)test1 {
+    UIView *redView = [[UIView alloc]init];
+    redView.backgroundColor = [UIColor redColor];
+    [self.view addSubview:redView];
+    
+    UIView *blueView = [[UIView alloc]init];
+    blueView.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:blueView];
+    
+    UIView *yellowView = [[UIView alloc]init];
+    yellowView.backgroundColor = [UIColor yellowColor];
+    [self.view addSubview:yellowView];
+    
+    [redView makeConstraints:^(MASConstraintMaker *make) {
+        
+    }];
+    
+    
+    
 }
 
 
