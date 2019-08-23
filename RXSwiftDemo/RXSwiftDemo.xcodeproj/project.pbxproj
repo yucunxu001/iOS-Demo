@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		01329DE0230D0E7E0089B637 /* CustomBindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01329DDF230D0E7E0089B637 /* CustomBindViewController.swift */; };
 		01329DE2230D60B90089B637 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01329DE1230D60B90089B637 /* SubjectsViewController.swift */; };
+		01350B56230E280900E02849 /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01350B55230E280900E02849 /* OperatorViewController.swift */; };
 		014A5B072306396700FA4E78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A5B062306396700FA4E78 /* AppDelegate.swift */; };
 		014A5B0C2306396700FA4E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 014A5B0A2306396700FA4E78 /* Main.storyboard */; };
 		014A5B0E2306396800FA4E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 014A5B0D2306396800FA4E78 /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 		014A5C162306957E00FA4E78 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A5C152306957E00FA4E78 /* MyViewController.swift */; };
 		014A5C212306AC9700FA4E78 /* MusicListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 014A5C202306AC9700FA4E78 /* MusicListViewModel.swift */; };
 		0191BC66230A6EC20042E731 /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0191BC65230A6EC20042E731 /* ObservableViewController.swift */; };
+		01C34DBF230F792500A22F5B /* ErrorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C34DBE230F792500A22F5B /* ErrorViewController.swift */; };
+		01C34DC1230FDC2800A22F5B /* FeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C34DC0230FDC2800A22F5B /* FeatureViewController.swift */; };
 		8FA476382B3D6BB658F52320 /* Pods_RXSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B094C1EFAA9F51F2C7D43CB /* Pods_RXSwiftDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +50,7 @@
 /* Begin PBXFileReference section */
 		01329DDF230D0E7E0089B637 /* CustomBindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindViewController.swift; sourceTree = "<group>"; };
 		01329DE1230D60B90089B637 /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		01350B55230E280900E02849 /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
 		014A5B032306396700FA4E78 /* RXSwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		014A5B062306396700FA4E78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		014A5B0B2306396700FA4E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		014A5C152306957E00FA4E78 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		014A5C202306AC9700FA4E78 /* MusicListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicListViewModel.swift; sourceTree = "<group>"; };
 		0191BC65230A6EC20042E731 /* ObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
+		01C34DBE230F792500A22F5B /* ErrorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorViewController.swift; sourceTree = "<group>"; };
+		01C34DC0230FDC2800A22F5B /* FeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureViewController.swift; sourceTree = "<group>"; };
 		4B094C1EFAA9F51F2C7D43CB /* Pods_RXSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C2E06E559A98D0960F27785 /* Pods-RXSwiftDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftDemo.release.xcconfig"; path = "Target Support Files/Pods-RXSwiftDemo/Pods-RXSwiftDemo.release.xcconfig"; sourceTree = "<group>"; };
 		79C9A23B7F4E468339074C0E /* Pods-RXSwiftDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwiftDemo.debug.xcconfig"; path = "Target Support Files/Pods-RXSwiftDemo/Pods-RXSwiftDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,6 +213,9 @@
 				0191BC65230A6EC20042E731 /* ObservableViewController.swift */,
 				01329DDF230D0E7E0089B637 /* CustomBindViewController.swift */,
 				01329DE1230D60B90089B637 /* SubjectsViewController.swift */,
+				01350B55230E280900E02849 /* OperatorViewController.swift */,
+				01C34DBE230F792500A22F5B /* ErrorViewController.swift */,
+				01C34DC0230FDC2800A22F5B /* FeatureViewController.swift */,
 			);
 			path = home;
 			sourceTree = "<group>";
@@ -420,10 +429,13 @@
 			files = (
 				014A5C0223068F6600FA4E78 /* TestViewController.swift in Sources */,
 				014A5C142306957200FA4E78 /* MsgViewController.swift in Sources */,
+				01C34DC1230FDC2800A22F5B /* FeatureViewController.swift in Sources */,
 				014A5B072306396700FA4E78 /* AppDelegate.swift in Sources */,
 				0191BC66230A6EC20042E731 /* ObservableViewController.swift in Sources */,
+				01350B56230E280900E02849 /* OperatorViewController.swift in Sources */,
 				014A5C0A230693E300FA4E78 /* HomeViewController.swift in Sources */,
 				01329DE2230D60B90089B637 /* SubjectsViewController.swift in Sources */,
+				01C34DBF230F792500A22F5B /* ErrorViewController.swift in Sources */,
 				014A5C102306948800FA4E78 /* TabBarViewController.swift in Sources */,
 				014A5C212306AC9700FA4E78 /* MusicListViewModel.swift in Sources */,
 				01329DE0230D0E7E0089B637 /* CustomBindViewController.swift in Sources */,
