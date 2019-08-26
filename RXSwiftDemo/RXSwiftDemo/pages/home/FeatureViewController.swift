@@ -25,12 +25,42 @@ class FeatureViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+//    func getRepo(_ repo: String) -> Single<[String: Any]> {
+//        return Single<[String: Any]>.create { single in
+//            let url = URL(string: "https://api.github.com/repos/\(repo)")!
+//            let task = URLSession.shared.dataTask(with: url) {
+//                data, _, error in
+//
+//                if let error = error {
+//                    single(.error(error))
+//                    return
+//                }
+//
+//                guard let data = data,
+//                    let json = try? JSONSerialization.jsonObject(with: data, options: .mutableLeaves),
+//                    let result = json as? [String: Any] else {
+//                        single(.error(DataError.cantParseJSON))
+//                        return
+//                }
+//
+//                single(.success(result))
+//            }
+//
+//            task.resume()
+//
+//            return Disposables.create { task.cancel() }
+//        }
+//    }
+    
+    
     @IBAction func Single(_ sender: Any) {
-
+        print("Single")
+                
     }
     
 //    //将数据缓存到本地
 //    func cacheLocally() -> Completable {
+//        Completable()
 //        return Completable.create { completable in
 //            //将数据缓存到本地（这里掠过具体的业务代码，随机成功或失败）
 //            let success = (arc4random() % 2 == 0)
