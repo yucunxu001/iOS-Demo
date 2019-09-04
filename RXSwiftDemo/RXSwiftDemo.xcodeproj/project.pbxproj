@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01222995231CA59D00F0596E /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01222994231CA59D00F0596E /* NotificationViewController.swift */; };
+		01222997231CA5A800F0596E /* DelegateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01222996231CA5A800F0596E /* DelegateViewController.swift */; };
+		0122299B231CF5B700F0596E /* UseKVOViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0122299A231CF5B700F0596E /* UseKVOViewController.swift */; };
 		01329DE0230D0E7E0089B637 /* CustomBindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01329DDF230D0E7E0089B637 /* CustomBindViewController.swift */; };
 		01329DE2230D60B90089B637 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01329DE1230D60B90089B637 /* SubjectsViewController.swift */; };
 		01350B56230E280900E02849 /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01350B55230E280900E02849 /* OperatorViewController.swift */; };
+		013FC6FE231F958400FE6A60 /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013FC6FD231F958400FE6A60 /* SendMessageViewController.swift */; };
 		01433CE82314CBBB00E4F574 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01433CE72314CBBB00E4F574 /* PickerViewController.swift */; };
 		01433CEA2314D85300E4F574 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01433CE92314D85300E4F574 /* TableViewController.swift */; };
 		01433CEC2314D86400E4F574 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01433CEB2314D86400E4F574 /* CollectionViewController.swift */; };
@@ -74,9 +78,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01222994231CA59D00F0596E /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		01222996231CA5A800F0596E /* DelegateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateViewController.swift; sourceTree = "<group>"; };
+		0122299A231CF5B700F0596E /* UseKVOViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UseKVOViewController.swift; sourceTree = "<group>"; };
 		01329DDF230D0E7E0089B637 /* CustomBindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBindViewController.swift; sourceTree = "<group>"; };
 		01329DE1230D60B90089B637 /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		01350B55230E280900E02849 /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
+		013FC6FD231F958400FE6A60 /* SendMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
 		01433CE72314CBBB00E4F574 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		01433CE92314D85300E4F574 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		01433CEB2314D86400E4F574 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
@@ -248,6 +256,10 @@
 			isa = PBXGroup;
 			children = (
 				014A5C132306957200FA4E78 /* MsgViewController.swift */,
+				01222994231CA59D00F0596E /* NotificationViewController.swift */,
+				01222996231CA5A800F0596E /* DelegateViewController.swift */,
+				0122299A231CF5B700F0596E /* UseKVOViewController.swift */,
+				013FC6FD231F958400FE6A60 /* SendMessageViewController.swift */,
 			);
 			path = msg;
 			sourceTree = "<group>";
@@ -537,6 +549,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				015F29A42313A7E9001F9A6B /* GestureViewController.swift in Sources */,
+				01222997231CA5A800F0596E /* DelegateViewController.swift in Sources */,
 				014A5C0223068F6600FA4E78 /* TestViewController.swift in Sources */,
 				014A5C142306957200FA4E78 /* MsgViewController.swift in Sources */,
 				01C34DC1230FDC2800A22F5B /* FeatureViewController.swift in Sources */,
@@ -551,12 +564,15 @@
 				015F29A02313A7A9001F9A6B /* SwitchViewController.swift in Sources */,
 				01329DE2230D60B90089B637 /* SubjectsViewController.swift in Sources */,
 				01953F3223175E39001B7729 /* RxDataCollectionViewController.swift in Sources */,
+				013FC6FE231F958400FE6A60 /* SendMessageViewController.swift in Sources */,
 				01953F382317AC58001B7729 /* MemoryViewController.swift in Sources */,
+				0122299B231CF5B700F0596E /* UseKVOViewController.swift in Sources */,
 				01C34DBF230F792500A22F5B /* ErrorViewController.swift in Sources */,
 				01579362231653AC0075AA92 /* EditTableViewController.swift in Sources */,
 				015F29A22313A7BD001F9A6B /* SliderViewController.swift in Sources */,
 				015793672316A36B0075AA92 /* CustomCollectionViewCell.swift in Sources */,
 				015F299E2313A78E001F9A6B /* ButtonViewController.swift in Sources */,
+				01222995231CA59D00F0596E /* NotificationViewController.swift in Sources */,
 				014A5C102306948800FA4E78 /* TabBarViewController.swift in Sources */,
 				014A5C212306AC9700FA4E78 /* MusicListViewModel.swift in Sources */,
 				01953F3A2317BA91001B7729 /* URLSessionViewController.swift in Sources */,
