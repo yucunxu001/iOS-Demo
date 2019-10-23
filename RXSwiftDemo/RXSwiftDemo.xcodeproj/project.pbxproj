@@ -14,6 +14,7 @@
 		01329DE2230D60B90089B637 /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01329DE1230D60B90089B637 /* SubjectsViewController.swift */; };
 		01350B56230E280900E02849 /* OperatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01350B55230E280900E02849 /* OperatorViewController.swift */; };
 		013FC6FE231F958400FE6A60 /* SendMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013FC6FD231F958400FE6A60 /* SendMessageViewController.swift */; };
+		013FC700231FB19E00FE6A60 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013FC6FF231FB19E00FE6A60 /* LayoutViewController.swift */; };
 		01433CE82314CBBB00E4F574 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01433CE72314CBBB00E4F574 /* PickerViewController.swift */; };
 		01433CEA2314D85300E4F574 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01433CE92314D85300E4F574 /* TableViewController.swift */; };
 		01433CEC2314D86400E4F574 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01433CEB2314D86400E4F574 /* CollectionViewController.swift */; };
@@ -85,6 +86,7 @@
 		01329DE1230D60B90089B637 /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		01350B55230E280900E02849 /* OperatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperatorViewController.swift; sourceTree = "<group>"; };
 		013FC6FD231F958400FE6A60 /* SendMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewController.swift; sourceTree = "<group>"; };
+		013FC6FF231FB19E00FE6A60 /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
 		01433CE72314CBBB00E4F574 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		01433CE92314D85300E4F574 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		01433CEB2314D86400E4F574 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
@@ -260,6 +262,7 @@
 				01222996231CA5A800F0596E /* DelegateViewController.swift */,
 				0122299A231CF5B700F0596E /* UseKVOViewController.swift */,
 				013FC6FD231F958400FE6A60 /* SendMessageViewController.swift */,
+				013FC6FF231FB19E00FE6A60 /* LayoutViewController.swift */,
 			);
 			path = msg;
 			sourceTree = "<group>";
@@ -570,6 +573,7 @@
 				01C34DBF230F792500A22F5B /* ErrorViewController.swift in Sources */,
 				01579362231653AC0075AA92 /* EditTableViewController.swift in Sources */,
 				015F29A22313A7BD001F9A6B /* SliderViewController.swift in Sources */,
+				013FC700231FB19E00FE6A60 /* LayoutViewController.swift in Sources */,
 				015793672316A36B0075AA92 /* CustomCollectionViewCell.swift in Sources */,
 				015F299E2313A78E001F9A6B /* ButtonViewController.swift in Sources */,
 				01222995231CA59D00F0596E /* NotificationViewController.swift in Sources */,

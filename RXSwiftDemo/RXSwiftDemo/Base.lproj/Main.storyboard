@@ -1958,6 +1958,15 @@
                                     <segue destination="NZA-ho-k36" kind="push" id="AWV-ep-SH3"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zB-zp-Km6">
+                                <rect key="frame" x="152" y="143" width="110" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.98039215690000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="layout"/>
+                                <connections>
+                                    <segue destination="5hs-Xj-FG0" kind="push" id="KPH-an-0hp"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.34509803919999998" blue="0.81176470590000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="bTC-WH-szc"/>
@@ -1967,6 +1976,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EeJ-Tj-zQz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3670" y="-15"/>
+        </scene>
+        <!--Layout View Controller-->
+        <scene sceneID="cLa-CB-zvh">
+            <objects>
+                <viewController hidesBottomBarWhenPushed="YES" id="5hs-Xj-FG0" customClass="LayoutViewController" customModule="RXSwiftDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yva-6T-zgG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ji-Vj-swN">
+                                <rect key="frame" x="20" y="732" width="374" height="100"/>
+                                <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="FU1-Q9-F6H"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6v-QN-cp3">
+                                <rect key="frame" x="107" y="102" width="200" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.98039215690000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="changeLayout:" destination="5hs-Xj-FG0" eventType="touchUpInside" id="MNB-IC-7x1"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Ji-Vj-swN" firstAttribute="leading" secondItem="h3K-s2-xrK" secondAttribute="leading" constant="20" id="Xw3-vx-bIn"/>
+                            <constraint firstItem="h3K-s2-xrK" firstAttribute="trailing" secondItem="6Ji-Vj-swN" secondAttribute="trailing" constant="20" id="dR4-bu-eAm"/>
+                            <constraint firstItem="h3K-s2-xrK" firstAttribute="bottom" secondItem="6Ji-Vj-swN" secondAttribute="bottom" constant="30" id="k0u-5J-orA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="h3K-s2-xrK"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="AS3-DO-5HY"/>
+                    <connections>
+                        <outlet property="redView" destination="6Ji-Vj-swN" id="ATJ-gH-ffI"/>
+                        <outlet property="redViewHeight" destination="FU1-Q9-F6H" id="HBC-PY-pmd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P4G-zz-lpe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4315.9420289855079" y="-15.401785714285714"/>
         </scene>
         <!--发现-->
         <scene sceneID="SCf-UI-ni4">
