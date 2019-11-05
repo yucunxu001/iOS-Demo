@@ -634,6 +634,7 @@
 				DEVELOPMENT_TEAM = DC8FT77226;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ToastDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -659,6 +660,7 @@
 				DEVELOPMENT_TEAM = DC8FT77226;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = ToastDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
